@@ -85,18 +85,19 @@ O script já configura: campos de **seleção múltipla** como "Caixas de seleç
 campos de **seleção única** como múltipla escolha/lista, a opção **"Other"** em
 todas as listas, e os campos de texto (título, links, autores, observações).
 
-**Publicação automática (recomendado):** use o script
-`docs/publicar_automatico.gs` para que cada submissão caia sozinha na aba
-**"Publicados"** — sem copiar/colar.
+**Coleta + curadoria (recomendado):** use o script
+`docs/publicar_automatico.gs`. Cada submissão cai sozinha na aba **"Pendentes"**
+(já formatada — sem copiar/colar), mas **nada vai ao ar sem o seu aval**: o site
+lê apenas a aba **"Publicados"**.
 1. Abra a planilha → Extensões → Apps Script.
-2. Cole o `publicar_automatico.gs`.
+2. Cole o `publicar_automatico.gs` e salve.
 3. Rode a função `instalarGatilhoBRIGHT` uma vez e autorize.
-A partir daí, toda nova resposta vira uma linha em "Publicados" automaticamente.
+4. Recarregue a planilha → aparece o menu **BRIGHT** no topo.
 
-**Curadoria manual (alternativa):** se preferir revisar antes de publicar, as
-respostas ficam na aba de respostas; você valida e copia as aprovadas para
-**"Publicados"** (atribuindo um `id`). As perguntas seguem a MESMA ordem das
-colunas, o que facilita copiar/colar.
+Para **aprovar**: na aba "Pendentes", selecione a(s) linha(s) e clique em
+**BRIGHT → ✅ Publicar selecionadas** (a linha vai para "Publicados" com `id`
+automático e some de "Pendentes"). Para descartar: **BRIGHT → 🗑️ Recusar
+selecionadas**.
 
 > Para fazer manualmente: campos múltiplos = "Caixas de seleção"; únicos =
 > "Múltipla escolha"/"Lista"; sempre inclua "Other" e oriente a detalhar em

@@ -1,25 +1,27 @@
 /**
- * BRIGHT — Publicação automática das submissões
+ * BRIGHT — Coleta de submissões + CURADORIA (aprovação manual)
  * --------------------------------------------------------------
- * Copia automaticamente cada NOVA resposta do formulário para a
- * aba "Publicados", já no formato que o site entende (e atribui
- * um id sequencial). Assim você nunca mais copia/cola à mão.
+ * Fluxo:
+ *   1. Cada NOVA resposta do formulário cai sozinha na aba "Pendentes"
+ *      (já formatada no padrão do site — você NÃO copia/cola nada).
+ *   2. O site público lê SOMENTE a aba "Publicados". Portanto nada
+ *      aparece no ar sem o seu aval.
+ *   3. Para aprovar: selecione a(s) linha(s) na aba "Pendentes" e use o
+ *      menu  BRIGHT → Publicar selecionadas. A linha é movida para
+ *      "Publicados" com um id automático e some de "Pendentes".
+ *      Para descartar: BRIGHT → Recusar selecionadas.
  *
  * COMO INSTALAR (só uma vez):
  *  1. Abra a sua PLANILHA do Google Sheets (a que recebe as respostas).
  *  2. Menu  Extensões → Apps Script.
- *  3. Apague o conteúdo padrão e cole TODO este arquivo.
+ *  3. Apague o conteúdo padrão e cole TODO este arquivo. Salve.
  *  4. Selecione a função  instalarGatilhoBRIGHT  e clique em ▶ Executar.
  *     Autorize quando pedir. (Só precisa fazer isso uma vez.)
- *  5. Pronto! A partir de agora, cada submissão do formulário cai
- *     sozinha em "Publicados" e aparece no site em poucos minutos.
- *
- * Observação: isto publica as submissões automaticamente (sem revisão
- * manual). Se algum dia quiser um passo de curadoria, troque
- * ABA_DESTINO para "Pendentes" e mova as aprovadas para "Publicados".
+ *  5. Recarregue a planilha: vai aparecer o menu "BRIGHT" no topo.
  */
 
-var ABA_DESTINO = "Publicados";
+var ABA_PENDENTES  = "Pendentes";
+var ABA_PUBLICADOS = "Publicados";
 
 // Título da pergunta no formulário  ->  coluna interna do site.
 var MAPA = {
@@ -47,7 +49,7 @@ var MAPA = {
   "Observações / Notes": "notes"
 };
 
-// Ordem exata das colunas na aba "Publicados".
+// Ordem exata das colunas (igual nas duas abas).
 var COLUNAS = ["id", "title", "organism", "tissue", "isTumor", "cancerType",
   "technology", "geneCoverage", "panelGeneCount", "coregProtein", "heImage",
   "fixation", "numSamples", "access", "repositoryUrl", "articleUrl", "doi",
@@ -64,14 +66,34 @@ function instalarGatilhoBRIGHT() {
     .forSpreadsheet(ss)
     .onFormSubmit()
     .create();
-  garantirAbaPublicados_();
-  Logger.log("BRIGHT: publicação automática ATIVADA. Novas respostas irão para \"" + ABA_DESTINO + "\".");
+  garantirAba_(ABA_PENDENTES);
+  garantirAba_(ABA_PUBLICADOS);
+  criarMenuBRIGHT_();
+  Logger.log("BRIGHT: curadoria ATIVADA. Submissões vão para \"" + ABA_PENDENTES + "\"; aprove pelo menu BRIGHT.");
   try {
-    SpreadsheetApp.getUi().alert("BRIGHT: publicação automática ativada!\nNovas submissões irão para a aba \"" + ABA_DESTINO + "\".");
+    SpreadsheetApp.getUi().alert(
+      "BRIGHT: curadoria ativada!\n\n" +
+      "• Novas submissões caem em \"" + ABA_PENDENTES + "\".\n" +
+      "• Nada vai ao ar sem o seu aval.\n" +
+      "• Para publicar: selecione a linha e use o menu BRIGHT → Publicar selecionadas.\n\n" +
+      "Recarregue a planilha para ver o menu BRIGHT.");
   } catch (e) { /* sem UI quando rodado fora da planilha — tudo bem */ }
 }
 
-/** Disparada automaticamente a cada submissão do formulário. */
+/** Cria o menu BRIGHT ao abrir a planilha (gatilho simples). */
+function onOpen() { criarMenuBRIGHT_(); }
+
+function criarMenuBRIGHT_() {
+  try {
+    SpreadsheetApp.getUi()
+      .createMenu("BRIGHT")
+      .addItem("✅ Publicar selecionadas", "publicarSelecionadas")
+      .addItem("🗑️ Recusar selecionadas", "recusarSelecionadas")
+      .addToUi();
+  } catch (e) { /* sem UI quando rodado fora da planilha */ }
+}
+
+/** Disparada automaticamente a cada submissão: grava em "Pendentes". */
 function aoEnviarFormularioBRIGHT(e) {
   var nv = (e && e.namedValues) ? e.namedValues : {};
   var dados = {};
@@ -84,17 +106,90 @@ function aoEnviarFormularioBRIGHT(e) {
       dados[MAPA[titulo]] = "";
     }
   }
-  var sheet = garantirAbaPublicados_();
-  dados.id = Math.max(1, sheet.getLastRow()); // cabeçalho = linha 1 -> 1º id = 1
+  var sheet = garantirAba_(ABA_PENDENTES);
+  dados.id = ""; // id só é atribuído na aprovação
   var linha = COLUNAS.map(function (k) { return dados[k] != null ? dados[k] : ""; });
   sheet.appendRow(linha);
 }
 
-/** Garante que a aba "Publicados" existe e tem o cabeçalho correto. */
-function garantirAbaPublicados_() {
+/** Move as linhas selecionadas em "Pendentes" para "Publicados". */
+function publicarSelecionadas() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
-  var sheet = ss.getSheetByName(ABA_DESTINO);
-  if (!sheet) sheet = ss.insertSheet(ABA_DESTINO);
+  var origem = ss.getActiveSheet();
+  var ui = SpreadsheetApp.getUi();
+  if (origem.getName() !== ABA_PENDENTES) {
+    ui.alert("Selecione as linhas na aba \"" + ABA_PENDENTES + "\" antes de publicar.");
+    return;
+  }
+  var linhas = linhasSelecionadas_(origem);
+  if (!linhas.length) { ui.alert("Nenhuma linha selecionada."); return; }
+
+  var destino = garantirAba_(ABA_PUBLICADOS);
+  var proximoId = proximoId_(destino);
+  var ultimaCol = COLUNAS.length;
+  var movidas = 0;
+
+  // processa de baixo p/ cima para poder apagar sem bagunçar os índices
+  linhas.sort(function (a, b) { return b - a; }).forEach(function (r) {
+    if (r === 1) return; // nunca a linha de cabeçalho
+    var valores = origem.getRange(r, 1, 1, ultimaCol).getValues()[0];
+    valores[0] = proximoId++;            // coluna id
+    destino.appendRow(valores);
+    origem.deleteRow(r);
+    movidas++;
+  });
+
+  ui.alert(movidas + " dataset(s) publicado(s)! Aparecem no site em alguns minutos.");
+}
+
+/** Apaga (recusa) as linhas selecionadas em "Pendentes". */
+function recusarSelecionadas() {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var origem = ss.getActiveSheet();
+  var ui = SpreadsheetApp.getUi();
+  if (origem.getName() !== ABA_PENDENTES) {
+    ui.alert("Selecione as linhas na aba \"" + ABA_PENDENTES + "\" para recusar.");
+    return;
+  }
+  var linhas = linhasSelecionadas_(origem);
+  if (!linhas.length) { ui.alert("Nenhuma linha selecionada."); return; }
+  var resp = ui.alert("Recusar e apagar " + linhas.length + " linha(s)?",
+    ui.ButtonSet.YES_NO);
+  if (resp !== ui.Button.YES) return;
+  linhas.sort(function (a, b) { return b - a; }).forEach(function (r) {
+    if (r !== 1) origem.deleteRow(r);
+  });
+}
+
+/** Lista os números de linha cobertos pela seleção atual. */
+function linhasSelecionadas_(sheet) {
+  var set = {};
+  var ranges = sheet.getActiveRangeList() ? sheet.getActiveRangeList().getRanges() : [sheet.getActiveRange()];
+  ranges.forEach(function (rg) {
+    var ini = rg.getRow(), n = rg.getNumRows();
+    for (var i = 0; i < n; i++) set[ini + i] = true;
+  });
+  return Object.keys(set).map(Number);
+}
+
+/** Próximo id sequencial com base na coluna id de "Publicados". */
+function proximoId_(sheet) {
+  var ultima = sheet.getLastRow();
+  if (ultima < 2) return 1;
+  var ids = sheet.getRange(2, 1, ultima - 1, 1).getValues();
+  var max = 0;
+  ids.forEach(function (r) {
+    var n = parseInt(r[0], 10);
+    if (!isNaN(n) && n > max) max = n;
+  });
+  return max + 1;
+}
+
+/** Garante que a aba existe e tem o cabeçalho correto. */
+function garantirAba_(nome) {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = ss.getSheetByName(nome);
+  if (!sheet) sheet = ss.insertSheet(nome);
   if (sheet.getLastRow() === 0) sheet.appendRow(COLUNAS);
   return sheet;
 }
