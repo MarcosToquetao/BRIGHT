@@ -1,0 +1,9 @@
+# Pastas internas / locais
+.claude/
+.DS_Store
+Thumbs.db
+*.log
+
+# Python (scripts de build)
+__pycache__/
+*.pyc
