@@ -2,10 +2,11 @@
    BRIGHT — Dashboard (Chart.js)
    ============================================================ */
 
+/* Canais de fluorescência — paleta categórica grounded na microscopia. */
 const PALETTE = [
-  "#2f9ee6", "#19c3c8", "#7c5cf0", "#ff8a5b",
-  "#ffc857", "#ff6b9d", "#41d18b", "#5b8def",
-  "#9b6dff", "#ff9f43", "#26c6da", "#ec5e8a",
+  "#13b3c2", "#df3d77", "#7b4dc0", "#34c596",
+  "#ffb454", "#4f8cf5", "#ef5da8", "#9b6dff",
+  "#0fb8a6", "#ff8a5b", "#6c5ce7", "#26c6da",
 ];
 
 /* Rótulos localizados para valores de vocabulário controlado. */
@@ -87,7 +88,7 @@ function baseOpts(extra) {
     responsive: true,
     maintainAspectRatio: false,
     plugins: {
-      legend: { labels: { color: "#46607a", font: { family: "Inter", size: 12, weight: "600" }, padding: 14, usePointStyle: true } },
+      legend: { labels: { color: "#483a63", font: { family: "IBM Plex Sans", size: 12, weight: "500" }, padding: 14, usePointStyle: true } },
     },
     scales: undefined,
   }, extra || {});
@@ -96,8 +97,8 @@ function baseOpts(extra) {
 function renderDashboard() {
   if (typeof Chart === "undefined") return;
 
-  Chart.defaults.font.family = "Inter, sans-serif";
-  Chart.defaults.color = "#46607a";
+  Chart.defaults.font.family = "IBM Plex Sans, sans-serif";
+  Chart.defaults.color = "#483a63";
 
   // 1. Datasets por tecnologia (barra horizontal)
   const tech = sortedEntries(countBy("technology"));
@@ -115,7 +116,7 @@ function renderDashboard() {
       indexAxis: "y",
       plugins: { legend: { display: false } },
       scales: {
-        x: { grid: { color: "#e7eef6" }, ticks: { precision: 0 } },
+        x: { grid: { color: "#ece3f6" }, ticks: { precision: 0 } },
         y: { grid: { display: false } },
       },
     }),
@@ -140,7 +141,7 @@ function renderDashboard() {
       plugins: { legend: { position: "bottom" } },
       scales: {
         x: { stacked: true, grid: { display: false } },
-        y: { stacked: true, grid: { color: "#e7eaf6" }, ticks: { precision: 0 }, beginAtZero: true },
+        y: { stacked: true, grid: { color: "#ece3f6" }, ticks: { precision: 0 }, beginAtZero: true },
       },
     }),
   });
@@ -169,7 +170,7 @@ function renderDashboard() {
       labels: tumor.map((e) => localizeVal(e[0])),
       datasets: [{
         data: tumor.map((e) => e[1]),
-        backgroundColor: ["#ff6b9d", "#19c3c8", "#ffc857"],
+        backgroundColor: ["#df3d77", "#13b3c2", "#ffb454"],
         borderWidth: 2,
         borderColor: "#fff",
       }],
@@ -193,7 +194,7 @@ function renderDashboard() {
       plugins: { legend: { display: false } },
       scales: {
         x: { grid: { display: false } },
-        y: { grid: { color: "#e7eef6" }, ticks: { precision: 0 }, beginAtZero: true },
+        y: { grid: { color: "#ece3f6" }, ticks: { precision: 0 }, beginAtZero: true },
       },
     }),
   });
@@ -214,7 +215,7 @@ function renderDashboard() {
       indexAxis: "y",
       plugins: { legend: { display: false } },
       scales: {
-        x: { grid: { color: "#e7eef6" }, ticks: { precision: 0 }, beginAtZero: true },
+        x: { grid: { color: "#ece3f6" }, ticks: { precision: 0 }, beginAtZero: true },
         y: { grid: { display: false } },
       },
     }),
@@ -232,7 +233,7 @@ function renderDashboard() {
       datasets: [{
         data: heKeys.map((k) => heMap[k]),
         backgroundColor: heKeys.map((k) =>
-          k === "Co-registered" ? "#41d18b" : k === "Paired" ? "#5b8def" : k === "None" ? "#cdd9e6" : "#ff9f43"),
+          k === "Co-registered" ? "#34c596" : k === "Paired" ? "#4f8cf5" : k === "None" ? "#d6c9e6" : "#ffb454"),
         borderWidth: 2,
         borderColor: "#fff",
       }],
