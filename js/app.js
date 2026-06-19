@@ -288,13 +288,29 @@ function renderDetail(id) {
 
 /* ---------- Stats (home strip) ---------- */
 function renderStats() {
-  const set = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
-  set("stat-datasets", State.data.length);
-  set("stat-tech", uniqueValues("technology").length);
-  set("stat-organisms", uniqueValues("organism").length);
-  const pub = State.data.filter((d) => getVals(d, "access").includes("Public")).length;
-  const pct = State.data.length ? Math.round((pub / State.data.length) * 100) : 0;
-  set("stat-public", pct + "%");
+  const totalSamples = State.data.reduce((sum, d) => {
+    const n = parseInt(String(d.numSamples).replace(/[^\d]/g, ""), 10);
+    return sum + (isNaN(n) ? 0 : n);
+  }, 0);
+  animateCount("stat-datasets", State.data.length);
+  animateCount("stat-samples", totalSamples);
+  animateCount("stat-tissues", uniqueValues("tissue").length);
+  animateCount("stat-tech", uniqueValues("technology").length);
+}
+/* Contagem animada (count-up) — toque elegante na home. */
+function animateCount(id, target) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  const fmt = (n) => n.toLocaleString(State.lang === "pt" ? "pt-BR" : "en-US");
+  if (target <= 0) { el.textContent = "0"; return; }
+  const dur = 900, t0 = performance.now();
+  function step(now) {
+    const p = Math.min(1, (now - t0) / dur);
+    const eased = 1 - Math.pow(1 - p, 3); // easeOutCubic
+    el.textContent = fmt(Math.round(eased * target));
+    if (p < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
 }
 
 /* ---------- Helpers ---------- */

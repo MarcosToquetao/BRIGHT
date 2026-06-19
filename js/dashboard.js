@@ -8,6 +8,22 @@ const PALETTE = [
   "#9b6dff", "#ff9f43", "#26c6da", "#ec5e8a",
 ];
 
+/* Rótulos localizados para valores de vocabulário controlado. */
+const VAL_LABELS = {
+  pt: {
+    "Co-registered": "Corregistrada", "Paired": "Pareada", "None": "Indisponível",
+    "Yes": "Tumoral", "No": "Não tumoral",
+  },
+  en: {
+    "Co-registered": "Co-registered", "Paired": "Paired", "None": "Not available",
+    "Yes": "Tumor", "No": "Non-tumor",
+  },
+};
+function localizeVal(v) {
+  const dict = VAL_LABELS[State.lang] || {};
+  return dict[v] || v;
+}
+
 function countBy(key) {
   const map = {};
   State.data.forEach((d) => {
@@ -20,6 +36,43 @@ function sortedEntries(map, limit) {
   let e = Object.entries(map).sort((a, b) => b[1] - a[1]);
   if (limit) e = e.slice(0, limit);
   return e;
+}
+/* Soma de numSamples por valor de um campo (ex.: amostras por tecnologia). */
+function samplesBy(key) {
+  const map = {};
+  State.data.forEach((d) => {
+    const n = parseInt(String(d.numSamples).replace(/[^\d]/g, ""), 10);
+    const val = isNaN(n) ? 0 : n;
+    getVals(d, key).forEach((v) => { map[v] = (map[v] || 0) + val; });
+  });
+  return map;
+}
+/* Matriz cruzada: soma de numSamples por (linha=keyRow) empilhada por keyStack.
+   Retorna { rows:[...], stacks:[...], matrix: {row:{stack:valor}} }. */
+function crossSamples(keyRow, keyStack, topStacks) {
+  const matrix = {}, stackTotals = {};
+  State.data.forEach((d) => {
+    const n = parseInt(String(d.numSamples).replace(/[^\d]/g, ""), 10);
+    const val = isNaN(n) ? 0 : n;
+    const rows = getVals(d, keyRow);
+    const stacks = getVals(d, keyStack);
+    if (!rows.length || !stacks.length) return;
+    rows.forEach((r) => {
+      matrix[r] = matrix[r] || {};
+      stacks.forEach((s) => {
+        matrix[r][s] = (matrix[r][s] || 0) + val;
+        stackTotals[s] = (stackTotals[s] || 0) + val;
+      });
+    });
+  });
+  let stacks = Object.entries(stackTotals).sort((a, b) => b[1] - a[1]).map((e) => e[0]);
+  if (topStacks && stacks.length > topStacks) stacks = stacks.slice(0, topStacks);
+  const rows = Object.keys(matrix).sort((a, b) => {
+    const sa = Object.values(matrix[a]).reduce((x, y) => x + y, 0);
+    const sb = Object.values(matrix[b]).reduce((x, y) => x + y, 0);
+    return sb - sa;
+  });
+  return { rows, stacks, matrix };
 }
 
 function makeChart(id, config) {
@@ -34,7 +87,7 @@ function baseOpts(extra) {
     responsive: true,
     maintainAspectRatio: false,
     plugins: {
-      legend: { labels: { color: "#5b7088", font: { family: "Inter", size: 12 }, padding: 14, usePointStyle: true } },
+      legend: { labels: { color: "#46607a", font: { family: "Inter", size: 12, weight: "600" }, padding: 14, usePointStyle: true } },
     },
     scales: undefined,
   }, extra || {});
@@ -44,9 +97,9 @@ function renderDashboard() {
   if (typeof Chart === "undefined") return;
 
   Chart.defaults.font.family = "Inter, sans-serif";
-  Chart.defaults.color = "#6a829b";
+  Chart.defaults.color = "#46607a";
 
-  // 1. By technology (horizontal bar)
+  // 1. Datasets por tecnologia (barra horizontal)
   const tech = sortedEntries(countBy("technology"));
   makeChart("chart-tech", {
     type: "bar",
@@ -62,40 +115,37 @@ function renderDashboard() {
       indexAxis: "y",
       plugins: { legend: { display: false } },
       scales: {
-        x: { grid: { color: "#eef4fa" }, ticks: { precision: 0 } },
+        x: { grid: { color: "#e7eef6" }, ticks: { precision: 0 } },
         y: { grid: { display: false } },
       },
     }),
   });
 
-  // 2. By year (line)
-  const yearMap = countBy("pubYear");
-  const years = Object.keys(yearMap).sort();
-  makeChart("chart-year", {
-    type: "line",
+  // 2. Amostras de tecido por tecnologia (barras empilhadas: tech × tecido)
+  const cross = crossSamples("technology", "tissue", 8);
+  makeChart("chart-samples-tech", {
+    type: "bar",
     data: {
-      labels: years,
-      datasets: [{
-        data: years.map((y) => yearMap[y]),
-        borderColor: "#2f9ee6",
-        backgroundColor: "rgba(47,158,230,0.15)",
-        fill: true,
-        tension: 0.35,
-        pointBackgroundColor: "#2f9ee6",
-        pointRadius: 5,
-        pointHoverRadius: 7,
-      }],
+      labels: cross.rows,
+      datasets: cross.stacks.map((s, i) => ({
+        label: s,
+        data: cross.rows.map((r) => (cross.matrix[r] && cross.matrix[r][s]) || 0),
+        backgroundColor: PALETTE[i % PALETTE.length],
+        borderRadius: 4,
+        borderWidth: 1,
+        borderColor: "#fff",
+      })),
     },
     options: baseOpts({
-      plugins: { legend: { display: false } },
+      plugins: { legend: { position: "bottom" } },
       scales: {
-        x: { grid: { display: false } },
-        y: { grid: { color: "#eef4fa" }, ticks: { precision: 0 }, beginAtZero: true },
+        x: { stacked: true, grid: { display: false } },
+        y: { stacked: true, grid: { color: "#e7eaf6" }, ticks: { precision: 0 }, beginAtZero: true },
       },
     }),
   });
 
-  // 3. By organism (doughnut)
+  // 3. Datasets por organismo (rosca)
   const org = sortedEntries(countBy("organism"));
   makeChart("chart-organism", {
     type: "doughnut",
@@ -111,7 +161,23 @@ function renderDashboard() {
     options: baseOpts({ cutout: "62%" }),
   });
 
-  // 4. By tissue (bar, top 8)
+  // 4. Tumoral vs. não tumoral (rosca)
+  const tumor = sortedEntries(countBy("isTumor"));
+  makeChart("chart-tumor", {
+    type: "doughnut",
+    data: {
+      labels: tumor.map((e) => localizeVal(e[0])),
+      datasets: [{
+        data: tumor.map((e) => e[1]),
+        backgroundColor: ["#ff6b9d", "#19c3c8", "#ffc857"],
+        borderWidth: 2,
+        borderColor: "#fff",
+      }],
+    },
+    options: baseOpts({ cutout: "62%" }),
+  });
+
+  // 5. Tecidos mais frequentes (barra, top 8)
   const tissue = sortedEntries(countBy("tissue"), 8);
   makeChart("chart-tissue", {
     type: "bar",
@@ -127,40 +193,66 @@ function renderDashboard() {
       plugins: { legend: { display: false } },
       scales: {
         x: { grid: { display: false } },
-        y: { grid: { color: "#eef4fa" }, ticks: { precision: 0 }, beginAtZero: true },
+        y: { grid: { color: "#e7eef6" }, ticks: { precision: 0 }, beginAtZero: true },
       },
     }),
   });
 
-  // 5. Access (polar/pie)
-  const access = sortedEntries(countBy("access"));
-  makeChart("chart-access", {
-    type: "pie",
+  // 6. Tipos de câncer (barra horizontal, top 10)
+  const cancer = sortedEntries(countBy("cancerType"), 10);
+  makeChart("chart-cancer", {
+    type: "bar",
     data: {
-      labels: access.map((e) => e[0]),
+      labels: cancer.map((e) => e[0]),
       datasets: [{
-        data: access.map((e) => e[1]),
-        backgroundColor: ["#41d18b", "#ffc857", "#ff6b9d", "#5b8def"],
-        borderWidth: 2,
-        borderColor: "#fff",
+        data: cancer.map((e) => e[1]),
+        backgroundColor: cancer.map((_, i) => PALETTE[(i + 5) % PALETTE.length]),
+        borderRadius: 7,
       }],
     },
-    options: baseOpts({}),
+    options: baseOpts({
+      indexAxis: "y",
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { color: "#e7eef6" }, ticks: { precision: 0 }, beginAtZero: true },
+        y: { grid: { display: false } },
+      },
+    }),
   });
 
-  // 6. Tumor vs non-tumor (doughnut)
-  const tumor = countBy("isTumor");
-  makeChart("chart-tumor", {
+  // 7. Imagem H&E disponível (rosca: corregistrada / pareada / indisponível)
+  const heMap = countBy("heImage");
+  const heOrder = ["Co-registered", "Paired", "None"];
+  const heKeys = heOrder.filter((k) => heMap[k]).concat(
+    Object.keys(heMap).filter((k) => !heOrder.includes(k)));
+  makeChart("chart-he", {
     type: "doughnut",
     data: {
-      labels: Object.keys(tumor),
+      labels: heKeys.map((k) => localizeVal(k)),
       datasets: [{
-        data: Object.values(tumor),
-        backgroundColor: ["#ff6b9d", "#19c3c8"],
+        data: heKeys.map((k) => heMap[k]),
+        backgroundColor: heKeys.map((k) =>
+          k === "Co-registered" ? "#41d18b" : k === "Paired" ? "#5b8def" : k === "None" ? "#cdd9e6" : "#ff9f43"),
         borderWidth: 2,
         borderColor: "#fff",
       }],
     },
     options: baseOpts({ cutout: "62%" }),
+  });
+
+  // 8. Tipo de fixação (pizza)
+  const fix = sortedEntries(countBy("fixation"));
+  makeChart("chart-fixation", {
+    type: "pie",
+    data: {
+      labels: fix.map((e) => e[0]),
+      datasets: [{
+        data: fix.map((e) => e[1]),
+        backgroundColor: fix.map((_, i) => PALETTE[(i + 2) % PALETTE.length]),
+        borderWidth: 2,
+        borderColor: "#fff",
+      }],
+    },
+    options: baseOpts({}),
   });
 }

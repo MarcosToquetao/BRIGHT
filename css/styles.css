@@ -4,21 +4,22 @@
    ============================================================ */
 
 :root {
-  /* Paleta base (azul-claro, sóbria) */
-  --bg:            #f4f9fd;
-  --bg-soft:       #eaf3fb;
+  /* Paleta base (azul-claro, sóbria, com mais contraste) */
+  --bg:            #eef5fb;
+  --bg-soft:       #dceaf8;
   --surface:       #ffffff;
-  --surface-2:     #f7fbff;
-  --border:        #dce8f3;
-  --border-strong: #c3d8ea;
+  --surface-2:     #f3f8fe;
+  --border:        #d0e0ef;
+  --border-strong: #aecae3;
 
-  --ink:           #16324f;   /* texto principal */
-  --muted:         #6a829b;   /* texto secundário */
+  --ink:           #0d2740;   /* texto principal (mais escuro = mais contraste) */
+  --ink-soft:      #2a4866;
+  --muted:         #57728c;   /* texto secundário */
 
-  --primary:       #2f9ee6;   /* azul-claro principal */
-  --primary-deep:  #1c6fb3;
-  --primary-soft:  #e2f1fc;
-  --accent:        #19c3c8;   /* teal de apoio */
+  --primary:       #1f8fda;   /* azul-claro principal */
+  --primary-deep:  #135a96;
+  --primary-soft:  #dcecfb;
+  --accent:        #0fb3b8;   /* teal de apoio */
 
   /* Cores vibrantes para o dashboard */
   --c1: #2f9ee6;
@@ -32,8 +33,8 @@
 
   --radius:    14px;
   --radius-lg: 20px;
-  --shadow:    0 4px 18px rgba(31, 96, 153, 0.08);
-  --shadow-lg: 0 12px 40px rgba(31, 96, 153, 0.14);
+  --shadow:    0 4px 16px rgba(13, 58, 102, 0.10);
+  --shadow-lg: 0 16px 44px rgba(13, 58, 102, 0.18);
 
   --font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
@@ -192,20 +193,56 @@ a:hover { text-decoration: underline; }
   margin: 40px 0 8px;
 }
 .stat-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 22px;
-  text-align: center;
+  padding: 20px 22px;
   box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: transform .14s ease, box-shadow .18s ease, border-color .18s;
 }
+/* faixa de acento à esquerda */
+.stat-card::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 5px;
+  background: var(--accent, var(--primary));
+}
+.stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--border-strong);
+}
+.stat-ico {
+  flex: 0 0 auto;
+  width: 48px; height: 48px;
+  border-radius: 13px;
+  display: grid; place-items: center;
+  color: var(--accent, var(--primary));
+  background: color-mix(in srgb, var(--accent, var(--primary)) 14%, #fff);
+}
+.stat-ico svg { width: 26px; height: 26px; }
+.stat-text { display: flex; flex-direction: column; line-height: 1.1; }
 .stat-card .num {
-  font-size: 2rem;
+  font-size: 2.1rem;
   font-weight: 800;
-  color: var(--primary-deep);
-  letter-spacing: -0.02em;
+  color: var(--ink);
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
 }
-.stat-card .lbl { color: var(--muted); font-size: 0.9rem; font-weight: 600; }
+.stat-card .lbl {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-top: 2px;
+}
 
 /* ---------- Sections ---------- */
 .section { padding: 48px 0; }
@@ -214,6 +251,16 @@ a:hover { text-decoration: underline; }
   font-size: 1.7rem;
   letter-spacing: -0.02em;
   margin: 0 0 6px;
+  padding-left: 16px;
+  position: relative;
+}
+.section-head h2::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0.12em; bottom: 0.12em;
+  width: 5px;
+  border-radius: 999px;
+  background: linear-gradient(var(--primary), var(--accent));
 }
 .section-head p { color: var(--muted); margin: 0; }
 
@@ -410,6 +457,16 @@ a:hover { text-decoration: underline; }
   margin: 0 0 16px;
   font-size: 1.02rem;
   letter-spacing: -0.01em;
+  padding-left: 12px;
+  position: relative;
+}
+.chart-card h3::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0.15em; bottom: 0.15em;
+  width: 4px;
+  border-radius: 999px;
+  background: linear-gradient(var(--primary), var(--accent));
 }
 .chart-holder { position: relative; height: 280px; }
 

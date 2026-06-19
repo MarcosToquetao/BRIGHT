@@ -16,7 +16,9 @@ window.BRIGHT_I18N = {
     "hero.cta.submit": "Contribuir com um dataset",
 
     "stat.datasets": "Datasets",
-    "stat.technologies": "Tecnologias",
+    "stat.samples": "Amostras",
+    "stat.tissues": "Tecidos",
+    "stat.technologies": "Tecnologias de ST",
     "stat.organisms": "Organismos",
     "stat.public": "Acesso público",
 
@@ -50,10 +52,12 @@ window.BRIGHT_I18N = {
     "dashboard.title": "Visão geral dos dados",
     "dashboard.subtitle": "Panorama interativo de todos os datasets catalogados.",
     "dashboard.byTech": "Datasets por tecnologia",
-    "dashboard.byYear": "Publicações por ano",
+    "dashboard.samplesByTech": "Amostras de tecido por tecnologia",
     "dashboard.byOrganism": "Datasets por organismo",
     "dashboard.byTissue": "Tecidos mais frequentes",
-    "dashboard.byAccess": "Disponibilidade de acesso",
+    "dashboard.byCancer": "Tipos de câncer",
+    "dashboard.byHE": "Imagem H&E disponível",
+    "dashboard.byFixation": "Tipo de fixação",
     "dashboard.tumor": "Tumoral vs. não tumoral",
 
     "submit.title": "Submeter um novo dataset",
@@ -90,7 +94,9 @@ window.BRIGHT_I18N = {
     "hero.cta.submit": "Contribute a dataset",
 
     "stat.datasets": "Datasets",
-    "stat.technologies": "Technologies",
+    "stat.samples": "Samples",
+    "stat.tissues": "Tissues",
+    "stat.technologies": "ST technologies",
     "stat.organisms": "Organisms",
     "stat.public": "Public access",
 
@@ -124,10 +130,12 @@ window.BRIGHT_I18N = {
     "dashboard.title": "Data overview",
     "dashboard.subtitle": "Interactive snapshot of every catalogued dataset.",
     "dashboard.byTech": "Datasets by technology",
-    "dashboard.byYear": "Publications per year",
+    "dashboard.samplesByTech": "Tissue samples by technology",
     "dashboard.byOrganism": "Datasets by organism",
     "dashboard.byTissue": "Most frequent tissues",
-    "dashboard.byAccess": "Access availability",
+    "dashboard.byCancer": "Cancer types",
+    "dashboard.byHE": "H&E image available",
+    "dashboard.byFixation": "Fixation type",
     "dashboard.tumor": "Tumor vs. non-tumor",
 
     "submit.title": "Submit a new dataset",
