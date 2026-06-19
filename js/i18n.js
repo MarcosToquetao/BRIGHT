@@ -10,10 +10,9 @@ window.BRIGHT_I18N = {
     "nav.submit": "Submeter dataset",
     "nav.about": "Sobre",
 
-    "hero.eyebrow": "Genômica · histologia · transcriptômica integradas",
-    "hero.title": "Onde cada gene se expressa.",
-    "hero.subtitle": "BRIGHT é um atlas aberto e curado de transcriptômica espacial — filtre, explore e baixe datasets mapeados ao tecido de onde vieram.",
-    "hero.cta.explore": "Explorar o atlas",
+    "hero.title": "Encontre dados de transcriptômica espacial",
+    "hero.subtitle": "Um catálogo curado e aberto: filtre, explore e baixe datasets de transcriptômica espacial de forma simples.",
+    "hero.cta.explore": "Explorar catálogo",
     "hero.cta.submit": "Contribuir com um dataset",
 
     "stat.datasets": "Datasets",
@@ -89,10 +88,9 @@ window.BRIGHT_I18N = {
     "nav.submit": "Submit dataset",
     "nav.about": "About",
 
-    "hero.eyebrow": "Integrated genomics · histology · transcriptomics",
-    "hero.title": "Where every gene is expressed.",
-    "hero.subtitle": "BRIGHT is an open, curated atlas of spatial transcriptomics — filter, explore and download datasets mapped back to the tissue they came from.",
-    "hero.cta.explore": "Explore the atlas",
+    "hero.title": "Discover spatial transcriptomics data",
+    "hero.subtitle": "An open, curated catalog: filter, explore and download spatial transcriptomics datasets with ease.",
+    "hero.cta.explore": "Explore catalog",
     "hero.cta.submit": "Contribute a dataset",
 
     "stat.datasets": "Datasets",

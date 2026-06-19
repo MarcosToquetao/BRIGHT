@@ -7,7 +7,7 @@
   <meta name="description" content="Brazilian Resource for Integrated Genomics, Histology and Transcriptomics — open, curated catalog of spatial transcriptomics datasets." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,900&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
 </head>
@@ -41,51 +41,11 @@
     <!-- ===== View: Catalog ===== -->
     <section id="view-catalog" class="view">
       <div class="hero">
-        <div class="hero-copy">
-          <span class="eyebrow" data-i18n="hero.eyebrow"></span>
-          <h1 data-i18n="hero.title"></h1>
-          <p data-i18n="hero.subtitle"></p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#catalog-list" data-i18n="hero.cta.explore"></a>
-            <a class="btn btn-ghost" href="#submit" data-i18n="hero.cta.submit"></a>
-          </div>
-        </div>
-        <div class="hero-figure" aria-hidden="true">
-          <svg viewBox="0 0 460 460" xmlns="http://www.w3.org/2000/svg" role="img">
-            <defs>
-              <radialGradient id="tissue" cx="40%" cy="36%" r="72%">
-                <stop offset="0%" stop-color="#f7b7cf"/>
-                <stop offset="42%" stop-color="#c98fd9"/>
-                <stop offset="78%" stop-color="#8257c4"/>
-                <stop offset="100%" stop-color="#5a399e"/>
-              </radialGradient>
-              <pattern id="spots" width="22" height="22" patternUnits="userSpaceOnUse">
-                <circle cx="11" cy="11" r="2.3" fill="#2c1850" opacity="0.28"/>
-              </pattern>
-              <clipPath id="blob">
-                <path d="M232 36 C322 32 412 104 416 206 C420 300 372 408 250 418 C156 426 64 372 50 262 C36 158 122 40 232 36 Z"/>
-              </clipPath>
-              <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
-                <feGaussianBlur stdDeviation="6"/>
-              </filter>
-            </defs>
-            <g clip-path="url(#blob)">
-              <rect x="0" y="0" width="460" height="460" fill="url(#tissue)"/>
-              <rect x="0" y="0" width="460" height="460" fill="url(#spots)"/>
-            </g>
-            <path d="M232 36 C322 32 412 104 416 206 C420 300 372 408 250 418 C156 426 64 372 50 262 C36 158 122 40 232 36 Z"
-                  fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2"/>
-            <g class="hotspots">
-              <circle class="spot" cx="158" cy="150" r="9"  fill="#19b6c4"/>
-              <circle class="spot" cx="262" cy="120" r="6"  fill="#45d69e"/>
-              <circle class="spot" cx="330" cy="206" r="11" fill="#ff6fa3"/>
-              <circle class="spot" cx="196" cy="258" r="7"  fill="#ffb454"/>
-              <circle class="spot" cx="288" cy="306" r="9"  fill="#19b6c4"/>
-              <circle class="spot" cx="120" cy="232" r="6"  fill="#45d69e"/>
-              <circle class="spot" cx="356" cy="300" r="7"  fill="#ff6fa3"/>
-              <circle class="spot" cx="232" cy="200" r="13" fill="#ffe08a"/>
-            </g>
-          </svg>
+        <h1 data-i18n="hero.title"></h1>
+        <p data-i18n="hero.subtitle"></p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#catalog-list" data-i18n="hero.cta.explore"></a>
+          <a class="btn btn-ghost" href="#submit" data-i18n="hero.cta.submit"></a>
         </div>
       </div>
 
