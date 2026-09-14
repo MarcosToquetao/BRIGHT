@@ -1,0 +1,115 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BRIGHT — Brazilian Resource for Integrated Genomics, Histology and Transcriptomics">
+  <defs>
+    <!-- mesma geometria dos ícones de tecnologia do site, reaproveitada aqui -->
+    <symbol id="t-visium" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="1.7"/><circle cx="12.6" cy="8" r="1.7"/>
+      <circle cx="10.3" cy="4" r="1.7"/><circle cx="5.7" cy="4" r="1.7"/>
+      <circle cx="3.4" cy="8" r="1.7"/><circle cx="5.7" cy="12" r="1.7"/>
+      <circle cx="10.3" cy="12" r="1.7"/>
+    </symbol>
+    <symbol id="t-visium-hd" viewBox="0 0 16 16">
+      <rect x="1.2" y="1.2" width="2.8" height="2.8"/><rect x="4.8" y="1.2" width="2.8" height="2.8"/>
+      <rect x="8.4" y="1.2" width="2.8" height="2.8"/><rect x="12" y="1.2" width="2.8" height="2.8"/>
+      <rect x="1.2" y="4.8" width="2.8" height="2.8"/><rect x="4.8" y="4.8" width="2.8" height="2.8"/>
+      <rect x="8.4" y="4.8" width="2.8" height="2.8"/><rect x="12" y="4.8" width="2.8" height="2.8"/>
+      <rect x="1.2" y="8.4" width="2.8" height="2.8"/><rect x="4.8" y="8.4" width="2.8" height="2.8"/>
+      <rect x="8.4" y="8.4" width="2.8" height="2.8"/><rect x="12" y="8.4" width="2.8" height="2.8"/>
+      <rect x="1.2" y="12" width="2.8" height="2.8"/><rect x="4.8" y="12" width="2.8" height="2.8"/>
+      <rect x="8.4" y="12" width="2.8" height="2.8"/><rect x="12" y="12" width="2.8" height="2.8"/>
+    </symbol>
+    <symbol id="t-xenium" viewBox="0 0 16 16">
+      <circle cx="3.1" cy="4.2" r="1"/><circle cx="7.4" cy="2.6" r="1"/>
+      <circle cx="11.8" cy="4.6" r="1"/><circle cx="5.2" cy="7.4" r="1"/>
+      <circle cx="9.6" cy="7.1" r="1"/><circle cx="13.2" cy="8.8" r="1"/>
+      <circle cx="2.6" cy="9.8" r="1"/><circle cx="6.8" cy="11.2" r="1"/>
+      <circle cx="11" cy="12.1" r="1"/><circle cx="4" cy="13.4" r="1"/>
+    </symbol>
+    <symbol id="t-merfish" viewBox="0 0 16 16">
+      <circle cx="4" cy="3.4" r=".95"/><circle cx="6.4" cy="4.6" r=".95"/>
+      <circle cx="11.4" cy="3.2" r=".95"/><circle cx="12.8" cy="5.4" r=".95"/>
+      <circle cx="3" cy="8.2" r=".95"/><circle cx="8" cy="8" r=".95"/>
+      <circle cx="9.8" cy="9.4" r=".95"/><circle cx="5.6" cy="11.6" r=".95"/>
+      <circle cx="7.2" cy="13.2" r=".95"/><circle cx="12.6" cy="11.8" r=".95"/>
+    </symbol>
+    <symbol id="t-slide-seq" viewBox="0 0 16 16">
+      <circle cx="4.4" cy="4.4" r="2.5"/><circle cx="9.8" cy="3.6" r="1.9"/>
+      <circle cx="13" cy="7" r="1.7"/><circle cx="8.2" cy="8.4" r="2.3"/>
+      <circle cx="3.2" cy="9.6" r="2"/><circle cx="11.4" cy="11.6" r="2.2"/>
+      <circle cx="6.2" cy="13" r="1.8"/>
+    </symbol>
+    <symbol id="t-stereo-seq" viewBox="0 0 16 16">
+      <circle cx="2" cy="2" r=".62"/><circle cx="4.8" cy="2" r=".62"/><circle cx="7.6" cy="2" r=".62"/><circle cx="10.4" cy="2" r=".62"/><circle cx="13.2" cy="2" r=".62"/>
+      <circle cx="2" cy="4.8" r=".62"/><circle cx="4.8" cy="4.8" r=".62"/><circle cx="7.6" cy="4.8" r=".62"/><circle cx="10.4" cy="4.8" r=".62"/><circle cx="13.2" cy="4.8" r=".62"/>
+      <circle cx="2" cy="7.6" r=".62"/><circle cx="4.8" cy="7.6" r=".62"/><circle cx="7.6" cy="7.6" r=".62"/><circle cx="10.4" cy="7.6" r=".62"/><circle cx="13.2" cy="7.6" r=".62"/>
+      <circle cx="2" cy="10.4" r=".62"/><circle cx="4.8" cy="10.4" r=".62"/><circle cx="7.6" cy="10.4" r=".62"/><circle cx="10.4" cy="10.4" r=".62"/><circle cx="13.2" cy="10.4" r=".62"/>
+      <circle cx="2" cy="13.2" r=".62"/><circle cx="4.8" cy="13.2" r=".62"/><circle cx="7.6" cy="13.2" r=".62"/><circle cx="10.4" cy="13.2" r=".62"/><circle cx="13.2" cy="13.2" r=".62"/>
+    </symbol>
+    <symbol id="t-cosmx" viewBox="0 0 16 16">
+      <g fill="none" stroke="currentColor" stroke-width="1.1">
+        <rect x="1.4" y="1.4" width="5.6" height="5.6"/><rect x="9" y="1.4" width="5.6" height="5.6"/>
+        <rect x="1.4" y="9" width="5.6" height="5.6"/><rect x="9" y="9" width="5.6" height="5.6"/>
+      </g>
+      <circle cx="4.2" cy="4.2" r=".9"/><circle cx="11.8" cy="4.2" r=".9"/>
+      <circle cx="4.2" cy="11.8" r=".9"/><circle cx="11.8" cy="11.8" r=".9"/>
+    </symbol>
+    <symbol id="t-geomx" viewBox="0 0 16 16">
+      <path d="M5.2 1.8 L11.6 2.6 L14 7.2 L11 12.4 L5.8 14 L2 10.6 L1.9 5.2 Z"
+            fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+      <circle cx="6.6" cy="6.2" r="1.1"/><circle cx="10" cy="9.4" r="1.1"/>
+    </symbol>
+  </defs>
+
+  <rect width="1200" height="320" fill="#111111"/>
+
+  <!-- marca: rede hexagonal de spots, a geometria de captura da transcriptômica espacial -->
+  <g>
+    <circle cx="100" cy="140" r="20" fill="#2c728e"/>
+    <circle cx="154.02" cy="140" r="20" fill="#440154"/>
+    <circle cx="127.01" cy="93.38" r="20" fill="#472e7c"/>
+    <circle cx="72.99" cy="93.38" r="20" fill="#3b528b"/>
+    <circle cx="45.98" cy="140" r="20" fill="#21908d"/>
+    <circle cx="72.99" cy="186.62" r="20" fill="#5dc963"/>
+    <circle cx="127.01" cy="186.62" r="20" fill="#fde725"/>
+  </g>
+
+  <!-- nome -->
+  <text x="200" y="152" font-family="Arial Black, Helvetica Neue, Helvetica, sans-serif"
+        font-size="96" font-weight="900" letter-spacing="-2" fill="#FAFAFA">BRIGHT</text>
+
+  <!-- de onde vem a sigla -->
+  <text x="201" y="192" font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+        font-size="23" fill="#9A9A96">
+    <tspan fill="#22A884" font-weight="800">B</tspan>razilian
+    <tspan fill="#22A884" font-weight="800"> R</tspan>esource for
+    <tspan fill="#22A884" font-weight="800"> I</tspan>ntegrated
+    <tspan fill="#22A884" font-weight="800"> G</tspan>enomics,
+    <tspan fill="#22A884" font-weight="800"> H</tspan>istology and
+    <tspan fill="#22A884" font-weight="800"> T</tspan>ranscriptomics
+  </text>
+
+  <!-- o que é -->
+  <text x="201" y="224" font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+        font-size="19" fill="#6f6f6b">Catálogo aberto de datasets de transcriptômica espacial</text>
+
+  <!-- tiras de tecnologias catalogadas -->
+  <g fill="#adada9" color="#adada9">
+    <use href="#t-visium"     x="118" y="268" width="20" height="20"/>
+    <use href="#t-visium-hd"  x="253" y="268" width="20" height="20"/>
+    <use href="#t-xenium"     x="388" y="268" width="20" height="20"/>
+    <use href="#t-merfish"    x="523" y="268" width="20" height="20"/>
+    <use href="#t-slide-seq"  x="658" y="268" width="20" height="20"/>
+    <use href="#t-stereo-seq" x="793" y="268" width="20" height="20"/>
+    <use href="#t-cosmx"      x="928" y="268" width="20" height="20"/>
+    <use href="#t-geomx"      x="1063" y="268" width="20" height="20"/>
+  </g>
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#6f6f6b" text-anchor="middle">
+    <text x="128" y="306">Visium</text>
+    <text x="263" y="306">Visium HD</text>
+    <text x="398" y="306">Xenium</text>
+    <text x="533" y="306">MERFISH</text>
+    <text x="668" y="306">Slide-seq</text>
+    <text x="803" y="306">Stereo-seq</text>
+    <text x="938" y="306">CosMx</text>
+    <text x="1073" y="306">GeoMx</text>
+  </g>
+</svg>
