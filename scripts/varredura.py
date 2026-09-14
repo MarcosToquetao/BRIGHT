@@ -320,9 +320,15 @@ def save_json(path, data):
         f.write("\n")
 
 
-def known_accessions(catalog, ledger):
+def known_accessions(catalog, review, ledger):
     known = set()
     for d in catalog:
+        acc = d.get("accession")
+        if acc:
+            known.add(acc)
+    # itens ja na fila de revisao nao podem ser re-propostos toda semana; o
+    # dono decide quando remove-los dali (resolvendo ou descartando)
+    for d in review:
         acc = d.get("accession")
         if acc:
             known.add(acc)
@@ -338,7 +344,7 @@ def discover(args):
     catalog = load_json(CATALOG_PATH, [])
     review = load_json(REVIEW_PATH, [])
     ledger = load_json(LEDGER_PATH, {})
-    known = known_accessions(catalog, ledger)
+    known = known_accessions(catalog, review, ledger)
 
     mindate = args.since or (date.today() - timedelta(days=7)).isoformat()
     maxdate = args.until or date.today().isoformat()
@@ -359,7 +365,10 @@ def discover(args):
         return
 
     summaries = eutils_esummary(sorted(uids))
-    next_id = max([int(d["id"]) for d in catalog if str(d.get("id", "")).isdigit()] + [0]) + 1
+    # um unico contador para tudo que este run gera (catalogo OU revisao) —
+    # senao, varios itens de revisao no mesmo run colidem no mesmo id
+    existing_ids = [int(d["id"]) for d in catalog + review if str(d.get("id", "")).isdigit()]
+    next_id = max(existing_ids + [0]) + 1
     new_catalog, new_review = [], []
 
     for uid, s in summaries.items():
@@ -442,8 +451,8 @@ def discover(args):
             "citations": citations,
         }
 
+        next_id += 1
         if not missing and deterministic_ok:
-            next_id += 1
             new_catalog.append(record)
         else:
             record["_missing"] = missing or ["confiança insuficiente em technology/heImage"]
