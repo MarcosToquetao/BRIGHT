@@ -1,0 +1,100 @@
+{
+ "GSE288244": {
+  "first_seen": "2026-09-14",
+  "status": "review",
+  "aliases": [
+   "PRJNA1216624",
+   "GSM8761894",
+   "GSM8761891",
+   "GSM8761880"
+  ],
+  "citations": []
+ },
+ "GSE320484": {
+  "first_seen": "2026-09-14",
+  "status": "proposed",
+  "aliases": [
+   "PRJNA1428296",
+   "GSM9712817",
+   "GSM9544116",
+   "GSM9544115"
+  ],
+  "citations": []
+ },
+ "GSE324193": {
+  "first_seen": "2026-09-14",
+  "status": "review",
+  "aliases": [
+   "PRJNA1433583",
+   "GSM9570885",
+   "GSM9570868",
+   "GSM9570905"
+  ],
+  "citations": []
+ },
+ "GSE328244": {
+  "first_seen": "2026-09-14",
+  "status": "review",
+  "aliases": [
+   "PRJNA1453795",
+   "GSM9675941",
+   "GSM9675944",
+   "GSM9675945"
+  ],
+  "citations": []
+ },
+ "GSE332910": {
+  "first_seen": "2026-09-14",
+  "status": "review",
+  "aliases": [
+   "PRJNA1469465",
+   "GSM9755213",
+   "GSM9755193",
+   "GSM9755199"
+  ],
+  "citations": []
+ },
+ "GSE333244": {
+  "first_seen": "2026-09-14",
+  "status": "review",
+  "aliases": [
+   "PRJNA1470578",
+   "GSM9759692",
+   "GSM9759690",
+   "GSM9759693"
+  ],
+  "citations": []
+ },
+ "GSE333529": {
+  "first_seen": "2026-09-14",
+  "status": "proposed",
+  "aliases": [
+   "PRJNA1471259",
+   "GSM9767744",
+   "GSM9767742",
+   "GSM9767743"
+  ],
+  "citations": []
+ },
+ "GSE346380": {
+  "first_seen": "2026-09-14",
+  "status": "review",
+  "aliases": [
+   "PRJNA1525231",
+   "GSM10033025",
+   "GSM10033024",
+   "GSM10033028"
+  ],
+  "citations": []
+ },
+ "GSE346722": {
+  "first_seen": "2026-09-14",
+  "status": "proposed",
+  "aliases": [
+   "PRJNA1526279",
+   "GSM10039417",
+   "GSM10039418"
+  ],
+  "citations": []
+ }
+}

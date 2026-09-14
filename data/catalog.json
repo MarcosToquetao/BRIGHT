@@ -101,7 +101,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "Doença renal policística (PKD); microambiente de cistos; ST (plataforma a confirmar). Acesso/repositório a confirmar.",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE190887",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/41071604",
+    "evidence": "Encontrado no texto: GSE190887 (outros candidatos: GSE193528, GSE268494, PRJNA1172747)",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "14",
@@ -127,7 +135,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "TUMOR: câncer de pulmão de pequenas células (SCLC); primário + metástase linfonodal; CosMx; 105 amostras / 75 pacientes; >600k células. Acesso/repositório a confirmar.",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE303152",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/41916294",
+    "evidence": "Encontrado no texto: GSE303152 (outros candidatos: GSE60052)",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "15",
@@ -153,7 +169,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "Timo humano fetal e pediátrico; Stereo-seq + proteômica. Tecido=timo (Other). Acesso/repositório a confirmar.",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE220830",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/41807357",
+    "evidence": "Encontrado no texto: GSE220830 (outros candidatos: PRJNA1045362, PRJNA1213311)",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "16",
@@ -231,7 +255,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "TUMOR: carcinoma de células claras de ovário (OCCC); proof-of-concept em 1 paciente. Plataforma ST a confirmar. Acesso/repositório a confirmar.",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE211956",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/41776662",
+    "evidence": "Encontrado no texto: GSE211956 (outros candidatos: GSE224335, GSE288483)",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "19",
@@ -309,7 +341,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "Data descriptor (Sci Data). Endométrio; falha de implantação repetida (RIF); 8 amostras Visium (4 CTR + 4 RIF). Tecido=endométrio (Other).",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE183837",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/41162434",
+    "evidence": "Encontrado no texto: GSE183837 (outros candidatos: GSE287278)",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "22",
@@ -387,7 +427,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "Desenvolvimento olfatório humano fetal (7–12 pcw); snRNA + MERFISH. Tecido=região nasal/olfatória (Other). Acesso/repositório a confirmar.",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE303809",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/41997969",
+    "evidence": "Encontrado no texto: GSE303809",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "25",
@@ -439,7 +487,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "Fígado humano saudável de doadores vivos; Visium/Visium HD/MERFISH/PhenoCycler + snRNA; 16 amostras (8 saudáveis + 8 patológicas). Acesso/repositório a confirmar.",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE223559",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/41986723",
+    "evidence": "Encontrado no texto: GSE223559 (outros candidatos: GSE240429, GSE248077)",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "27",
@@ -543,7 +599,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "Doença renal diabética; atlas cross-plataforma Xenium + CosMx + snRNA. Não-tumoral. Acesso/repositório a confirmar.",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE115098",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/42056516",
+    "evidence": "Encontrado no texto: GSE115098",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "31",
@@ -569,7 +633,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "Coração de zebrafish em regeneração; atlas de 8 estágios; Stereo-seq + scRNA. Acesso/repositório a confirmar.",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE153481",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/40253397",
+    "evidence": "Encontrado no texto: GSE153481 (outros candidatos: GSE188888, PRJNA1233465)",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "32",
@@ -647,7 +719,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "Camundongo; atlas espaçotemporal de inflamação cutânea tipo 2 (dermatite); ~430k células; MERFISH + scRNA. Acesso/repositório a confirmar.",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE147424",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/40782349",
+    "evidence": "Encontrado no texto: GSE147424 (outros candidatos: GSE153760, GSE173205, GSE180885, GSE222840, GSE288163, GSE288250, GSE288255)",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "35",
@@ -725,7 +805,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "Gengiva humana; alterações induzidas por tabagismo na periodontite; Visium HD. Tecido=gengiva/oral (Other). Acesso/repositório a confirmar.",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE164241",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/40750693",
+    "evidence": "Encontrado no texto: GSE164241",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "38",
@@ -803,7 +891,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": ">18 milhões de células; córtex cerebral fetal humano; especificação de camadas e áreas. Acesso/repositório a confirmar.",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE162170",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/40369074",
+    "evidence": "Encontrado no texto: GSE162170 (outros candidatos: GSE226451, PRJNA1231045, phs000989)",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "41",
@@ -907,7 +1003,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "TUMOR: fibrose submucosa oral (OSF) evoluindo para carcinoma epidermoide oral (OSCC); Visium + scRNA integrado; zona de transição na margem de invasão. Tecido=mucosa oral (Other); câncer=OSCC (Other). Acesso/repositório a confirmar.",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE103322",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/42364413",
+    "evidence": "Encontrado no texto: GSE103322",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "46",
@@ -1141,7 +1245,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "Estudo multi-espécie (humano, rato, camundongo) combinando scRNA-seq + transcriptômica espacial em fígado envelhecido, mapeando crosstalk LSEC-hepatócito via IL-1α-IL1R1 em lesão de isquemia/reperfusão. Lista de autores parcial. Plataforma de ST, painel, nº de amostras e acesso/repositório: a confirmar.",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE149590",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/41062182",
+    "evidence": "Encontrado no texto: GSE149590 (outros candidatos: GSE243977)",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "55",
@@ -1167,7 +1279,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "CosMx Spatial Molecular Imaging (painel 6000 genes) em explantes hepáticos de doença hepática associada à cirurgia de Fontan. Lista de autores parcial (abstract não lista todos). Acesso/repositório: a confirmar. Amostras (texto original): 2 amostras ST (1 fibrose inicial + 1 avançada); +18 tecidos adicionais usados apenas para validação por IF (não ST)",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE202379",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/41734025",
+    "evidence": "Encontrado no texto: GSE202379 (outros candidatos: GSE310443)",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "56",
@@ -1193,7 +1313,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "Estudo multiômico (ST + RNA-seq + proteômica) em biópsias hepáticas pediátricas de colangite esclerosante primária (PSC), mapeando crosstalk macrófago-fibroblasto na fibrose periductal. Lista de autores parcial (abstract não lista todos). Plataforma de ST, painel, nº de amostras e acesso/repositório: a confirmar.",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE303271",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/42024458",
+    "evidence": "Encontrado no texto: GSE303271 (outros candidatos: GSE325861, GSE61260)",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "57",
@@ -1323,7 +1451,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "Organismo = parasita Schistosoma japonicum; tecido = corpo/tecidos reprodutivos do parasita (fora do vocabulário -> Other). Atlas unicelular integrado pela primeira vez com nova transcriptômica espacial para mapear reguladores do desenvolvimento sexual. Plataforma, painel, nº de amostras, acesso e repositório: a confirmar.",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "PRJNA1417122",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/42435768",
+    "evidence": "Encontrado no texto: PRJNA1417122 (outros candidatos: PRJNA520774)",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "62",
@@ -1349,7 +1485,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "Modelos murinos de PDAC (incl. PDX) resistentes a inibidores de KRAS/daraxonrasib; integra nova transcriptômica espacial + CODEX (proteômica espacial) + scRNA-seq. Plataforma de ST, painel de genes, co-registro de proteína, nº de amostras, acesso e repositório: a confirmar.",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE269679",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/42436354",
+    "evidence": "Encontrado no texto: GSE269679 (outros candidatos: GSE269680, GSE269985, PRJNA1124144)",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "63",
@@ -1531,7 +1675,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "Gânglio nodoso/vagal de camundongo (fora do vocabulário -> Other). Atlas nomeado (NodoMap) integrando snRNA-seq + ST; identifica 21 subtipos neuronais e respostas transcricionais ao jejum. Plataforma de ST, painel, nº de amostras, acesso e repositório: a confirmar. Amostras (texto original): Atlas unificado de 106.436 células (snRNA-seq integrado com dados publicados) + mapeamento espacial",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE124312",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/42483274",
+    "evidence": "Encontrado no texto: GSE124312 (outros candidatos: GSE138651, GSE185173, GSE192987, GSE296454)",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "70",
@@ -1557,7 +1709,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "snRNA-seq + ST de alta resolução (plataforma não nomeada) em biópsias renais humanas com 5 subtipos de podocitopatia. Painel de genes, nº de amostras, acesso e repositório: a confirmar. Amostras (texto original): Tecidos renais de pacientes com 5 subtipos principais de podocitopatia (nº exato não informado)",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "PRJNA1310668",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/42497253",
+    "evidence": "Encontrado no texto: PRJNA1310668",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "71",
@@ -1609,7 +1769,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "Painel Xenium customizado construído a partir de dados de scRNA-seq (tamanho do painel não informado no resumo). Mapeia diversidade mesenquimal no intestino delgado humano em desenvolvimento; usado para bancar organoides intestinais derivados de células-tronco pluripotentes. Nº de amostras, acesso e repositório: a confirmar.",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "E-MTAB-10187",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/42486901",
+    "evidence": "Encontrado no texto: E-MTAB-10187 (outros candidatos: E-MTAB-15358, E-MTAB-15583, E-MTAB-9363, E-MTAB-9489, E-MTAB-9906)",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "73",
@@ -1635,7 +1803,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "Tecido = placa aterosclerótica de artéria carótida (fora do vocabulário -> Other, não é tecido cardíaco propriamente). Visium (10x) em 13 placas carotídeas humanas + validação funcional em camundongos Apoe-/- (sem ST murina). Painel/cobertura de genes, nº de amostras H&E, fixação, acesso e repositório: a confirmar. Amostras (texto original): 13 placas carotídeas (ST) + scRNA-seq (51.981 células) + bulk RNA-seq (n=78, deconvolução); validação em camundongos Apoe-/-",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE155513",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/41685669",
+    "evidence": "Encontrado no texto: GSE155513 (outros candidatos: GSE274572)",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "74",
@@ -1661,7 +1837,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "TUMOR: câncer de bexiga músculo-invasivo (ensaio clínico fase 2 randomizado, DUTRENEO). Dataset de grande escala: perfil espacial de transcriptoma unicelular customizado de 377 genes em ~5,4 milhões de células, gerado especificamente para explicar a falha de um biomarcador de bulk RNA. NOTA DE DATA: resumo/DOI indicam publicação em junho/2026, mas o registro foi capturado pelo filtro de data de publicação do PubMed (pdat) na janela 2026-07-20/2026-07-27 desta varredura — possível atualização/indexação tardia; conferir manualmente. Tecnologia exata (painel customizado, plataforma não nomeada) -> Other. Acesso e repositório: a confirmar. Amostras (texto original): ~5,4 milhões de células perfiladas (ensaio clínico fase 2 randomizado registrado como EudraCT 2017-002246-68); nº exato de pacientes/lâminas não informado no resumo",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE328930",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/42335902",
+    "evidence": "Encontrado no texto: GSE328930 (outros candidatos: PRJNA1458521)",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "75",
@@ -1843,7 +2027,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "TUMOR: câncer de bexiga (tecido/cancerType fora do vocabulário -> Other). scRNA-seq + ST identificando SUV39H1 como regulador epigenético em nicho imunossupressor. Plataforma de ST, painel, nº de amostras, acesso e repositório: a confirmar.",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE135337",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/42492366",
+    "evidence": "Encontrado no texto: GSE135337",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "82",
@@ -1999,7 +2191,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "TUMOR: carcinoma hepatocelular (HCC/LIHC); integra scRNA-seq (183.671 células) + transcriptômica espacial + dados bulk (TCGA, GSE39791); agrefagia em neutrófilos associados a tumor (TANs) e painel diagnóstico de 5 genes (SQSTM1, WDFY3, DOCK4, CD177, LIMK2). Tecnologia de ST, nº de amostras e acesso/repositório a confirmar.",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE39791",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/42401103",
+    "evidence": "Encontrado no texto: GSE39791",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "106",
@@ -2103,7 +2303,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "Estudo piloto: polpa dentária saudável e pulpite reversível/irreversível (n=4 amostras humanas); Visium-CytAssist-V2; perfil imune-fibroblasto associado à reversibilidade clínica. Tecido=polpa dentária (não listado; usado Other). Cobertura de genes e acesso/repositório a confirmar.",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE322883",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/42399991",
+    "evidence": "Encontrado no texto: GSE322883",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "110",
@@ -2389,7 +2597,15 @@
   "submittedBy": "Marcos Lemes Toquetão (varredura automática BRIGHT)",
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "TUMOR: osteossarcoma agressivo (primário + recidivas locais/metastáticas, incl. metástases pulmonares); atlas de transcriptômica espacial com assinatura de 9 genes de superfície com potencial teranóstico. Tecido=osso (não listado no vocabulário; usado Other). Tecnologia, nº de amostras, cobertura de genes e acesso/repositório a confirmar.",
-  "recordType": "dataset"
+  "recordType": "dataset",
+  "accession": "GSE152048",
+  "_provenance": {
+   "accession": {
+    "source": "https://europepmc.org/article/MED/42399228",
+    "evidence": "Encontrado no texto: GSE152048 (outros candidatos: GSE162454, GSE293065)",
+    "method": "regex"
+   }
+  }
  },
  {
   "id": "121",
@@ -2416,5 +2632,192 @@
   "contactEmail": "marcostoquetao@gmail.com",
   "notes": "Human Skin Cell Atlas (HSCA): integra 34 datasets scRNA-seq públicos (819.068 células) + novo dataset Visium HD gerado no estudo (unidade pilossebácea). Cobertura de genes, nº de amostras ST, acesso e repositório a confirmar (ver Data availability).",
   "recordType": "dataset"
+ },
+ {
+  "id": "122",
+  "accession": "GSE320484",
+  "recordType": "dataset",
+  "title": "Genetic and pharmacologic disruption of N-Myc suppresses basal cell carcinoma",
+  "organism": "Mouse",
+  "tissue": "Skin",
+  "isTumor": "Yes",
+  "cancerType": "",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "FFPE",
+  "numSamples": "4",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE320484",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE320484&targ=self&form=text",
+    "evidence": "…from male and female GPP mice were analyzed using the Xenium platform with a 5K Mouse Pan Tissue & Pathways Panel s…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE320484&targ=self&form=text",
+    "evidence": "Series_taxon = Mus musculus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE320484&targ=self&form=text",
+    "evidence": "…rict tumor progression. !Series_overall_design = FFPE skin samples from male and female GPP mice were analyzed us…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE320484&targ=self&form=text",
+    "evidence": "…harmacologic disruption of N-Myc suppresses basal cell carcinoma Driver mutations that activate upstream Hedgehog (Hh)…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9712817&targ=self&form=text",
+    "evidence": "…nn/GSM9712817/suppl/GSM9712817_B0095_IMQ_morphology.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE320484&targ=self&form=text",
+    "evidence": "…restrict tumor progression. !Series_overall_design = FFPE skin samples from male and female GPP mice were analyz…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE320484",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "123",
+  "accession": "GSE333529",
+  "recordType": "dataset",
+  "title": "A skin–kidney neutrophil axis links UV exposure to renal angiogenesis and tissue remodeling in healthy and lupus kidneys. [Spatial Transcriptomics]",
+  "organism": "Human",
+  "tissue": "Kidney",
+  "isTumor": "No",
+  "cancerType": "",
+  "technology": "Visium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Co-registered",
+  "fixation": "",
+  "numSamples": "4",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE333529",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE333529&targ=self&form=text",
+    "evidence": "…overall_design = Spatial transcriptomics (10X Genomics Visium) !Series_overall_design = !Series_overall_design =…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE333529&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE333529&targ=self&form=text",
+    "evidence": "A skin–kidney neutrophil axis links UV exposure to renal angiogenesi…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE333529&targ=self&form=text",
+    "evidence": "…xposure to renal angiogenesis and tissue remodeling in healthy and lupus kidneys. [Spatial Transcriptomics] Neutrophi…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9767744&targ=self&form=text",
+    "evidence": "…/geo/samples/GSM9767nnn/GSM9767744/suppl/GSM9767744_P4_aligned_fiducials.jpg.gz !Sample_supplementary_file_2 = ftp://ftp.ncbi.n…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE333529",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "124",
+  "accession": "GSE346722",
+  "recordType": "dataset",
+  "title": "Spatial compartmentalization shapes distinct germinal center states during respiratory viral infection",
+  "organism": "Non-human primate",
+  "tissue": "Brain",
+  "isTumor": "Yes",
+  "cancerType": "",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "FFPE",
+  "numSamples": "2",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE346722",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE346722&targ=self&form=text",
+    "evidence": "…CoV-2-infected cynomolgus macaques were analyzed using Xenium spatial transcriptomics to characterize conventional c…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE346722&targ=self&form=text",
+    "evidence": "Series_taxon = Macaca fascicularis",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE346722&targ=self&form=text",
+    "evidence": "…nal centers (GCs) typically form within the lymph node cortex, but whether proliferating B-cell aggregates in the me…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE346722&targ=self&form=text",
+    "evidence": "…GC structures (mGCs). A 377-target Xenium Human Multi-Cancer Panel was used to profile their transcriptional, cellu…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM10039417&targ=self&form=text",
+    "evidence": "…n/GSM10039417/suppl/GSM10039417_23_12942_morphology.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE346722&targ=self&form=text",
+    "evidence": "…-target Xenium Human Multi-Cancer Panel was applied to FFPE lymph node sections to compare conventional cortical g…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE346722",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
  }
 ]

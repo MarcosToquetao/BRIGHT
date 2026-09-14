@@ -1,0 +1,105 @@
+name: Varredura semanal
+
+# Descobre datasets novos no GEO, extrai os campos com procedência
+# citável, aplica o portão de admissão, e abre um PR sobre
+# data/catalog.json. Nada entra no site sem esse PR ser mesclado.
+on:
+  schedule:
+    - cron: "0 9 * * 1"  # toda segunda, 09:00 UTC
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "Data inicial (YYYY-MM-DD). Vazio = 7 dias atrás."
+        required: false
+      until:
+        description: "Data final (YYYY-MM-DD). Vazio = hoje."
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # o passo de agreement lê o histórico de merges
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Descobrir datasets novos no GEO
+        env:
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+          # ANTHROPIC_API_KEY: reservado para a etapa de LLM em campos
+          # ambíguos (ainda não usada pelo script). A rodada funciona sem ela.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python3 scripts/varredura.py discover \
+            ${{ inputs.since && format('--since {0}', inputs.since) || '' }} \
+            ${{ inputs.until && format('--until {0}', inputs.until) || '' }}
+
+      - name: Recalcular concordância (varredura/agreement.json)
+        run: python3 scripts/varredura.py agreement
+
+      - name: Abrir PR
+        id: pr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Varredura: novos datasets do GEO"
+          branch: varredura/auto-update
+          delete-branch: true
+          title: "Varredura semanal — datasets do GEO"
+          body: |
+            PR gerado automaticamente pela varredura semanal.
+
+            - `data/catalog.json`: datasets que passaram no portão de admissão
+              (tecnologia, tecido, tumor, organismo e H&E confirmados por método
+              determinístico, com fonte e evidência em `_provenance`).
+            - `data/review_queue.json`: candidatos que não completaram os cinco
+              campos obrigatórios — revise e complete manualmente antes de mover
+              para o catálogo, ou descarte.
+            - `varredura/ledger.json`: accessions já vistos, para não repetir.
+            - `varredura/agreement.json`: concordância por categoria, calculada
+              do histórico de PRs mesclados — quando uma categoria acumular
+              ≥20 propostas e ≥95% de concordância nos campos obrigatórios,
+              ela passa a ser candidata a publicação automática.
+
+            Revise o diff de `data/catalog.json` normalmente: o que você editar
+            aqui antes de mesclar é o sinal que ensina o portão a confiar mais
+            (ou menos) na próxima rodada.
+          labels: varredura-automatica
+
+      - name: Auto-mesclar categorias já confiáveis
+        if: steps.pr.outputs.pull-request-number
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Só ativa o auto-merge quando TODO o conteudo do PR pertence a
+          # categorias que já passaram do portão de confiança em
+          # varredura/agreement.json. Nas primeiras semanas isso nunca é
+          # verdade (portão exige >=20 propostas por categoria) — o PR fica
+          # esperando revisão manual, que é o comportamento certo até o
+          # histórico existir.
+          python3 - <<'PY'
+          import json, subprocess, sys
+          agreement = json.load(open("varredura/agreement.json"))
+          catalog_new = json.load(open("data/catalog.json"))
+          eligible_categories = {
+              cat for cat, fields in agreement.items()
+              if all(f.get("auto_merge_eligible") for f in fields.values())
+          }
+          added = [d for d in catalog_new if d.get("_provenance")]
+          if added and eligible_categories and all(
+              f"{d.get('technology','?')}/{d.get('_provenance',{}).get('heImage',{}).get('method','?')}"
+              in eligible_categories for d in added
+          ):
+              print("Todas as categorias deste PR já são confiáveis — habilitando auto-merge.")
+              sys.exit(subprocess.call(
+                  ["gh", "pr", "merge", "${{ steps.pr.outputs.pull-request-number }}",
+                   "--auto", "--squash"]))
+          print("Ainda sem categoria suficientemente confiável — PR fica para revisão manual.")
+          PY
