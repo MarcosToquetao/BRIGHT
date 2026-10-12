@@ -2819,5 +2819,241 @@
     "method": "deterministic"
    }
   }
+ },
+ {
+  "id": "144",
+  "accession": "GSE334315",
+  "recordType": "dataset",
+  "title": "Omega-3 fatty acids reprogram tumor-associated macrophage cytokine signaling and suppress pancreatic cancer growth [Xenium]",
+  "organism": "Mouse",
+  "tissue": "Pancreas",
+  "isTumor": "Yes",
+  "cancerType": "Pancreatic",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "",
+  "numSamples": "3",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334315",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334315&targ=self&form=text",
+    "evidence": "…okine signaling and suppress pancreatic cancer growth [Xenium] Dietary polyunsaturated fatty acids (PUFAs) shape inf…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334315&targ=self&form=text",
+    "evidence": "Series_taxon = Mus musculus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334315&targ=self&form=text",
+    "evidence": "…-associated macrophage cytokine signaling and suppress pancreatic cancer growth [Xenium] Dietary polyunsaturated fatt…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334315&targ=self&form=text",
+    "evidence": "Omega-3 fatty acids reprogram tumor-associated macrophage cytokine signaling and suppress…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9785283&targ=self&form=text",
+    "evidence": "…M9785nnn/GSM9785283/suppl/GSM9785283_morphology_soy.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334315",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "147",
+  "accession": "GSE344569",
+  "recordType": "dataset",
+  "title": "Multi-omics and spatial analysis of microgravity-grown glioblastoma organoids reveals superior modeling of advanced disease after long-term spaceflight",
+  "organism": "Human",
+  "tissue": "Brain",
+  "isTumor": "Yes",
+  "cancerType": "Glioblastoma",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "",
+  "numSamples": "8",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE344569",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE344569&targ=self&form=text",
+    "evidence": "…model for orbital oncology. !Series_overall_design = Xenium high-throughput in situ RNA hybridization on human gli…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE344569&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE344569&targ=self&form=text",
+    "evidence": "…glioblastoma (GBM), an aggressive, treatment-resistant brain cancer with an immunosuppressive microenvironment. To…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE344569&targ=self&form=text",
+    "evidence": "…astoma (GBM), an aggressive, treatment-resistant brain cancer with an immunosuppressive microenvironment. To overcom…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9981472&targ=self&form=text",
+    "evidence": "…981nnn/GSM9981472/suppl/GSM9981472_UTDuG_morphology.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE344569",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "149",
+  "accession": "GSE348311",
+  "recordType": "dataset",
+  "title": "Feasibility of single-dose neoadjuvant pembrolizumab with subablative radiotherapy in operable breast cancer: a single-centre phase 1b/2 window-of-opportunity trial",
+  "organism": "Human",
+  "tissue": "Breast",
+  "isTumor": "Yes",
+  "cancerType": "Breast carcinoma",
+  "technology": "GeoMx",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "",
+  "numSamples": "179",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348311",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348311&targ=self&form=text",
+    "evidence": "…low cytometry, intratumoural TCR profiling, NanoString GeoMx whole-transcriptome spatial profiling with TCR add-on,…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348311&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348311&targ=self&form=text",
+    "evidence": "…embrolizumab with subablative radiotherapy in operable breast cancer: a single-centre phase 1b/2 window-of-opportuni…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348311&targ=self&form=text",
+    "evidence": "…zumab with subablative radiotherapy in operable breast cancer: a single-centre phase 1b/2 window-of-opportunity tria…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348311&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348311",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "150",
+  "accession": "GSE349411",
+  "recordType": "dataset",
+  "title": "MERFISH spatial transcriptomics of NSCG glioblastoma-bearing mouse brain",
+  "organism": "Mouse",
+  "tissue": "Brain",
+  "isTumor": "Yes",
+  "cancerType": "Glioblastoma",
+  "technology": "MERFISH",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "",
+  "numSamples": "1",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349411",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349411&targ=self&form=text",
+    "evidence": "MERFISH spatial transcriptomics of NSCG glioblastoma-bearing m…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349411&targ=self&form=text",
+    "evidence": "Series_taxon = synthetic construct; Mus musculus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349411&targ=self&form=text",
+    "evidence": "…ial transcriptomics of NSCG glioblastoma-bearing mouse brain Glioblastoma invasion involves interactions between tu…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349411&targ=self&form=text",
+    "evidence": "…in Glioblastoma invasion involves interactions between tumor cells and resident microglia. As part of a study inves…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349411&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349411",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
  }
 ]
