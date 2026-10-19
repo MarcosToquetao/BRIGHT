@@ -2819,5 +2819,325 @@
     "method": "deterministic"
    }
   }
+ },
+ {
+  "id": "142",
+  "accession": "GSE327312",
+  "recordType": "dataset",
+  "title": "Spatial transcriptomics of high grade serous ovarian cancers",
+  "organism": "Human",
+  "tissue": "Ovary",
+  "isTumor": "Yes",
+  "cancerType": "Ovarian",
+  "technology": "Visium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Co-registered",
+  "fixation": "Fresh frozen",
+  "numSamples": "39",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327312",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327312&targ=self&form=text",
+    "evidence": "…patial transcriptomic profiling using the 10x Genomics Visium assay (6.5 mm × 6.5 mm capture area). !Series_overall…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327312&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327312&targ=self&form=text",
+    "evidence": "Spatial transcriptomics of high grade serous ovarian cancers Ovarian cancer is characterized by extensiv…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327312&targ=self&form=text",
+    "evidence": "Spatial transcriptomics of high grade serous ovarian cancers Ovarian cancer is characterized by extensive genomic…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9653317&targ=self&form=text",
+    "evidence": "…eo/samples/GSM9653nnn/GSM9653317/suppl/GSM9653317_360D_aligned_fiducials.jpg.gz !Sample_supplementary_file_2 = ftp://ftp.ncbi.n…",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327312&targ=self&form=text",
+    "evidence": "…the tumor microenvironment. !Series_overall_design = Fresh-frozen, OCT-embedded tissue sections were subjected to spatia…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327312",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "146",
+  "accession": "GSE334656",
+  "recordType": "dataset",
+  "title": "Spatial transcriptomic profiling of healthy adult mouse kidney using Xenium In Situ Gene Expression",
+  "organism": "Mouse",
+  "tissue": "Kidney",
+  "isTumor": "No",
+  "cancerType": "",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "FFPE",
+  "numSamples": "2",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334656",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334656&targ=self&form=text",
+    "evidence": "…riptomic profiling of healthy adult mouse kidney using Xenium In Situ Gene Expression The kidney contains highly spe…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334656&targ=self&form=text",
+    "evidence": "Series_taxon = Mus musculus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334656&targ=self&form=text",
+    "evidence": "…patial transcriptomic profiling of healthy adult mouse kidney using Xenium In Situ Gene Expression The kidney contai…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334656&targ=self&form=text",
+    "evidence": "Spatial transcriptomic profiling of healthy adult mouse kidney using Xenium In Situ Gene Expressio…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9792808&targ=self&form=text",
+    "evidence": "…n/GSM9792808/suppl/GSM9792808_morphology_focus_0000.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334656&targ=self&form=text",
+    "evidence": "…atial transcriptomic profiling was performed on a 5-µm formalin-fixed paraffin-embedded (FFPE) section of adult mouse kidney…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334656",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "148",
+  "accession": "GSE344843",
+  "recordType": "dataset",
+  "title": "Mapping the Tissue Architecture and Endothelial-PEC Network in Hepatic Angiomyolipoma Using Single-cell and Spatial Transcriptomics [Spatial Transcriptomics]",
+  "organism": "Human",
+  "tissue": "Liver",
+  "isTumor": "Yes",
+  "cancerType": "",
+  "technology": "Visium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Co-registered",
+  "fixation": "FFPE",
+  "numSamples": "3",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE344843",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE344843&targ=self&form=text",
+    "evidence": "…FPE sections from three HAML specimens were mounted on Visium slides, processed for H&E staining, and sequenced to g…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE344843&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE344843&targ=self&form=text",
+    "evidence": "…the Tissue Architecture and Endothelial-PEC Network in Hepatic Angiomyolipoma Using Single-cell and Spatial Transcr…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE344843&targ=self&form=text",
+    "evidence": "…iptomics] Hepatic angiomyolipoma is a rare mesenchymal tumor frequently associated with tuberous sclerosis complex…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9986440&targ=self&form=text",
+    "evidence": "…samples/GSM9986nnn/GSM9986440/suppl/GSM9986440_Sample3-aligned_fiducials.jpg.gz !Sample_supplementary_file_2 = ftp://ftp.ncbi.n…",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE344843&targ=self&form=text",
+    "evidence": "…x Genomics platform. For spatial transcriptomics (ST), FFPE sections from three HAML specimens were mounted on Vis…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE344843",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "152",
+  "accession": "GSE350535",
+  "recordType": "dataset",
+  "title": "Mechanical Stress Induces Nuclear Envelope Rupture in Melanoma Cells to Reorganize Tumor–Stromal Interactions (Stereo-seq)",
+  "organism": "Mouse",
+  "tissue": "Skin",
+  "isTumor": "Yes",
+  "cancerType": "Melanoma",
+  "technology": "Stereo-seq",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "FFPE",
+  "numSamples": "11",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350535",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350535&targ=self&form=text",
+    "evidence": "…lanoma Cells to Reorganize Tumor–Stromal Interactions (Stereo-seq) Exogenous mechanical stress can disrupt the nuclear e…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350535&targ=self&form=text",
+    "evidence": "Series_taxon = Mus musculus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350535&targ=self&form=text",
+    "evidence": "…a tissues and formalin-fixed, paraffin-embedded (FFPE) skin melanoma tissues. For Stereo-seq FF, we used three B16…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350535&targ=self&form=text",
+    "evidence": "…clear Envelope Rupture in Melanoma Cells to Reorganize Tumor–Stromal Interactions (Stereo-seq) Exogenous mechanical…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350535&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350535&targ=self&form=text",
+    "evidence": "…esh-frozen (FF) hindpaw-engrafted melanoma tissues and formalin-fixed, paraffin-embedded (FFPE) skin melanoma tissues. For S…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350535",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "155",
+  "accession": "GSE351148",
+  "recordType": "dataset",
+  "title": "An attention-based framework for interpretation of cell-cell interactions from spatial transcriptomics",
+  "organism": "Human",
+  "tissue": "Brain",
+  "isTumor": "Yes",
+  "cancerType": "Breast carcinoma",
+  "technology": "CosMx",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "FFPE",
+  "numSamples": "1",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351148",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351148&targ=self&form=text",
+    "evidence": "…nsil spatial transcriptomics dataset profiled with the CosMx Spatial Molecular Imager (1,000-gene panel), which is…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351148&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351148&targ=self&form=text",
+    "evidence": "…nthetic data, uncovers communication programs in mouse cortex, and reveals tumor-immune associations linked to ER pr…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351148&targ=self&form=text",
+    "evidence": "…rs communication programs in mouse cortex, and reveals tumor-immune associations linked to ER programs in breast ca…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351148&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351148&targ=self&form=text",
+    "evidence": "…imaging (CosMx SMI, 1,000-plex RNA panel) of a single formalin-fixed paraffin-embedded (FFPE) human tonsil tissue sample, a…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351148",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
  }
 ]

@@ -1,1 +1,386 @@
-{}
+{
+ "/?": {
+  "technology": {
+   "proposed": 11,
+   "accepted": 11,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "tissue": {
+   "proposed": 11,
+   "accepted": 11,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "isTumor": {
+   "proposed": 11,
+   "accepted": 11,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "organism": {
+   "proposed": 11,
+   "accepted": 11,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "heImage": {
+   "proposed": 11,
+   "accepted": 11,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  }
+ },
+ "CosMx/?": {
+  "technology": {
+   "proposed": 2,
+   "accepted": 2,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "tissue": {
+   "proposed": 2,
+   "accepted": 2,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "isTumor": {
+   "proposed": 2,
+   "accepted": 2,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "organism": {
+   "proposed": 2,
+   "accepted": 2,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "heImage": {
+   "proposed": 2,
+   "accepted": 2,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  }
+ },
+ "Stereo-seq/?": {
+  "technology": {
+   "proposed": 2,
+   "accepted": 2,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "tissue": {
+   "proposed": 2,
+   "accepted": 2,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "isTumor": {
+   "proposed": 2,
+   "accepted": 2,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "organism": {
+   "proposed": 2,
+   "accepted": 2,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "heImage": {
+   "proposed": 2,
+   "accepted": 2,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  }
+ },
+ "Visium/?": {
+  "technology": {
+   "proposed": 4,
+   "accepted": 4,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "tissue": {
+   "proposed": 4,
+   "accepted": 4,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "isTumor": {
+   "proposed": 4,
+   "accepted": 4,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "organism": {
+   "proposed": 4,
+   "accepted": 4,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "heImage": {
+   "proposed": 4,
+   "accepted": 4,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  }
+ },
+ "MERFISH/?": {
+  "technology": {
+   "proposed": 3,
+   "accepted": 3,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "tissue": {
+   "proposed": 3,
+   "accepted": 3,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "isTumor": {
+   "proposed": 3,
+   "accepted": 3,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "organism": {
+   "proposed": 3,
+   "accepted": 3,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "heImage": {
+   "proposed": 3,
+   "accepted": 3,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  }
+ },
+ "Visium; Visium HD; MERFISH/?": {
+  "technology": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "tissue": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "isTumor": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "organism": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "heImage": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  }
+ },
+ "Xenium; CosMx/?": {
+  "technology": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "tissue": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "isTumor": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "organism": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "heImage": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  }
+ },
+ "Visium HD/?": {
+  "technology": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "tissue": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "isTumor": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "organism": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "heImage": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  }
+ },
+ "Xenium/?": {
+  "technology": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "tissue": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "isTumor": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "organism": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "heImage": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  }
+ },
+ "Other/?": {
+  "technology": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "tissue": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "isTumor": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "organism": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "heImage": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  }
+ },
+ "Xenium/filename": {
+  "technology": {
+   "proposed": 2,
+   "accepted": 2,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "tissue": {
+   "proposed": 2,
+   "accepted": 2,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "isTumor": {
+   "proposed": 2,
+   "accepted": 2,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "organism": {
+   "proposed": 2,
+   "accepted": 2,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "heImage": {
+   "proposed": 2,
+   "accepted": 2,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  }
+ },
+ "Visium/filename": {
+  "technology": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "tissue": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "isTumor": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "organism": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  },
+  "heImage": {
+   "proposed": 1,
+   "accepted": 1,
+   "rate": 1.0,
+   "auto_merge_eligible": false
+  }
+ }
+}

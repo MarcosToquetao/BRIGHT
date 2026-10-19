@@ -735,5 +735,763 @@
   "_missing": [
    "isTumor"
   ]
+ },
+ {
+  "id": "138",
+  "accession": "GSE307688",
+  "recordType": "dataset",
+  "title": "Single-cell-scale spatial transcriptome of the developing and adult mouse ovary",
+  "organism": "Mouse",
+  "tissue": "Brain",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "Visium HD",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Co-registered",
+  "fixation": "",
+  "numSamples": "8",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE307688",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE307688&targ=self&form=text",
+    "evidence": "…ext. To overcome this limitation, we used 10X Genomics Visium HD spatial transcriptomics to analyze the developing mous…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE307688&targ=self&form=text",
+    "evidence": "Series_taxon = Mus musculus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE307688&targ=self&form=text",
+    "evidence": "…throughout development, including the establishment of cortex and medulla and assembly of ovarian follicles in each…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9229327&targ=self&form=text",
+    "evidence": "…o/samples/GSM9229nnn/GSM9229327/suppl/GSM9229327_E14_5_scalefactors_json.json.gz !Sample_supplementary_file_7 = ftp://ftp.ncbi.…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE307688",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "isTumor"
+  ]
+ },
+ {
+  "id": "139",
+  "accession": "GSE317240",
+  "recordType": "dataset",
+  "title": "Spatial transcriptome of vascular amyloid pathologies",
+  "organism": "Human",
+  "tissue": "Brain",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "Visium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Co-registered",
+  "fixation": "",
+  "numSamples": "2",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317240",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317240&targ=self&form=text",
+    "evidence": "…oarrays with 9 and 8 punches (3 mm diameter each). The Visium 10x technology was used for the spatial RNA-sequencing…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317240&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317240&targ=self&form=text",
+    "evidence": "…d pathologies Amyloid-beta related angiitis (ABRA) and cerebral amyloid angiopathy (CAA) are characterized by vascul…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9467858&targ=self&form=text",
+    "evidence": "…eo/samples/GSM9467nnn/GSM9467858/suppl/GSM9467858_TMA2_aligned_fiducials.jpg.gz !Sample_supplementary_file_2 = ftp://ftp.ncbi.n…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317240",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "isTumor"
+  ]
+ },
+ {
+  "id": "140",
+  "accession": "GSE320045",
+  "recordType": "dataset",
+  "title": "Cytotoxic T cell derived IFNγ mediates placental immune dysregulation in villitis of unknown etiology",
+  "organism": "Human",
+  "tissue": "",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "GeoMx",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "",
+  "numSamples": "192",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE320045",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE320045&targ=self&form=text",
+    "evidence": "…criptomic profiling was performed using the NanoString GeoMx Digital Spatial Profiler on 4 high grade VUE and 4 ges…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE320045&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE320045&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE320045",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "tissue",
+   "isTumor"
+  ]
+ },
+ {
+  "id": "141",
+  "accession": "GSE326793",
+  "recordType": "dataset",
+  "title": "Identification and Characterization of Neoplastic Cells in Keratin-Positive Giant Cell-Rich Tumors",
+  "organism": "Human",
+  "tissue": "",
+  "isTumor": "Yes",
+  "cancerType": "",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "FFPE",
+  "numSamples": "17",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326793",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326793&targ=self&form=text",
+    "evidence": "…ngements. Single-nuclei RNA sequencing (snRNA-seq) and Xenium spatial transcriptomics were used to elucidate the mec…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326793&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326793&targ=self&form=text",
+    "evidence": "Identification and Characterization of Neoplastic Cells in Keratin-Positive Giant Cell-Rich Tumors Ke…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326793&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326793&targ=self&form=text",
+    "evidence": "…GCT, as a therapy for KPGCT. !Series_overall_design = Formalin-fixed paraffin-embedded tissue from five KPGCT cases were us…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326793",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "tissue"
+  ]
+ },
+ {
+  "id": "143",
+  "accession": "GSE327615",
+  "recordType": "dataset",
+  "title": "Chromosome 6q mediated loss of LATS1 tumour suppression as a targetable mechanism of ultra-high-risk posterior fossa A ependymoma [Xenium]",
+  "organism": "Human",
+  "tissue": "",
+  "isTumor": "Yes",
+  "cancerType": "",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "",
+  "numSamples": "14",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327615",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327615&targ=self&form=text",
+    "evidence": "…anism of ultra-high-risk posterior fossa A ependymoma [Xenium] Posterior fossa A (PFA) ependymoma is the most common…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327615&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327615&targ=self&form=text",
+    "evidence": "Chromosome 6q mediated loss of LATS1 tumour suppression as a targetable mechanism of ultra-high-ri…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9662250&targ=self&form=text",
+    "evidence": "…662nnn/GSM9662250/suppl/GSM9662250_459-1_morphology.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327615",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "tissue"
+  ]
+ },
+ {
+  "id": "144",
+  "accession": "GSE327676",
+  "recordType": "dataset",
+  "title": "Chromosome 6q mediated loss of LATS1 tumour suppression as a targetable mechanism of ultra-high-risk posterior fossa A ependymoma",
+  "organism": "Human",
+  "tissue": "",
+  "isTumor": "Yes",
+  "cancerType": "",
+  "technology": "",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "",
+  "numSamples": "66",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327676",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327676&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327676&targ=self&form=text",
+    "evidence": "Chromosome 6q mediated loss of LATS1 tumour suppression as a targetable mechanism of ultra-high-ri…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9662255&targ=self&form=text",
+    "evidence": "…662nnn/GSM9662255/suppl/GSM9662255_821-1_morphology.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327676",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "technology",
+   "tissue"
+  ]
+ },
+ {
+  "id": "145",
+  "accession": "GSE333974",
+  "recordType": "dataset",
+  "title": "Overlapping yet distinct spatiomolecular profiles across mood disorders and biological sex in the human prefrontal cortex",
+  "organism": "Human",
+  "tissue": "Brain",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "Visium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Co-registered",
+  "fixation": "Fresh frozen",
+  "numSamples": "119",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE333974",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE333974&targ=self&form=text",
+    "evidence": "…uits was captured in this study using the 10x Genomics Visium platform to generate spatial RNA-sequencing data in po…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE333974&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE333974&targ=self&form=text",
+    "evidence": "…d disorders and biological sex in the human prefrontal cortex Major depressive disorder (MDD) and bipolar disorder (…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9778345&targ=self&form=text",
+    "evidence": "…45/suppl/GSM9778345_MBv_058_MDD_F_Br6021-V13B23-352_B1-aligned_fiducials.jpg.gz !Sample_supplementary_file_2 = ftp://ftp.ncbi.n…",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE333974&targ=self&form=text",
+    "evidence": "…all_design = Cryosections of the dlPFC (BA46) from 119 fresh frozen human brains from neurotypical control donors (N=40, 2…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE333974",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "isTumor"
+  ]
+ },
+ {
+  "id": "147",
+  "accession": "GSE339323",
+  "recordType": "dataset",
+  "title": "Ulcerative colitis Xenium In Situ Spatial Gene Expression",
+  "organism": "Human",
+  "tissue": "Colon / Intestine",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "FFPE",
+  "numSamples": "2",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE339323",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE339323&targ=self&form=text",
+    "evidence": "Ulcerative colitis Xenium In Situ Spatial Gene Expression In patients with Ulcer…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE339323&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE339323&targ=self&form=text",
+    "evidence": "…n the regulatory mechanisms enforcing tolerance to the intestinal microbiota leads to chronic inflammation. To investi…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9893496&targ=self&form=text",
+    "evidence": "…3nnn/GSM9893496/suppl/GSM9893496_UC1_inf_morphology.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE339323&targ=self&form=text",
+    "evidence": "…ue from one patient with UC. !Series_overall_design = Formalin-fixed, paraffin-embedded (FFPE) blocks of histopathologicall…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE339323",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "isTumor"
+  ]
+ },
+ {
+  "id": "149",
+  "accession": "GSE347797",
+  "recordType": "dataset",
+  "title": "Spatial multi-omics identifies rheumatoid arthritis synovial niches and de-novo laminar histological patterns of fibroblasts subtypes",
+  "organism": "Human",
+  "tissue": "",
+  "isTumor": "No",
+  "cancerType": "",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Co-registered",
+  "fixation": "",
+  "numSamples": "12",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347797",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347797&targ=self&form=text",
+    "evidence": "…ingle cell and bulk spatial transcriptomics (CosMx and Xenium, and Visium, respectively) as well as spatial LC/MS pr…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347797&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347797&targ=self&form=text",
+    "evidence": "…of a non-clinical cohort of six RA, three OA and three healthy (NH) synovial samples. Additionally, association of hi…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM10060707&targ=self&form=text",
+    "evidence": "…707/suppl/GSM10060707_S69_CT_504_A-1-1_Normal_Synovium_aligned_fiducials.jpg.gz !Sample_supplementary_file_2 = ftp://ftp.ncbi.n…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347797",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "tissue"
+  ]
+ },
+ {
+  "id": "150",
+  "accession": "GSE347958",
+  "recordType": "dataset",
+  "title": "Spatial multi-omics identifies rheumatoid arthritis synovial niches and de-novo laminar histological patterns of fibroblasts subtypes [RA_Xenium_spatial]",
+  "organism": "Human",
+  "tissue": "",
+  "isTumor": "No",
+  "cancerType": "",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "",
+  "numSamples": "17",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347958",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347958&targ=self&form=text",
+    "evidence": "…inar histological patterns of fibroblasts subtypes [RA_Xenium_spatial] Introduction: Spatial-omic technologies provi…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347958&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347958&targ=self&form=text",
+    "evidence": "…of a non-clinical cohort of six RA, three OA and three healthy (NH) synovial samples. Additionally, association of hi…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM10064442&targ=self&form=text",
+    "evidence": "…_504-A-1_NORMAL_SYNOVIUM_20231205_203234_morphology.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347958",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "tissue"
+  ]
+ },
+ {
+  "id": "151",
+  "accession": "GSE348638",
+  "recordType": "dataset",
+  "title": "Circulating pre-osteoclasts are primed for osteoclast fate and synovial tissue homing in psoriatic arthritis",
+  "organism": "Human",
+  "tissue": "",
+  "isTumor": "No",
+  "cancerType": "",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "",
+  "numSamples": "5",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348638",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348638&targ=self&form=text",
+    "evidence": "…ed imaging-based spatial transcriptomics (10x Genomics Xenium) on synovial tissue from near-healthy and psoriatic ar…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348638&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348638&targ=self&form=text",
+    "evidence": "…ics (10x Genomics Xenium) on synovial tissue from near-healthy and psoriatic arthritis (PsA) donors. Each donor recei…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM10076935&targ=self&form=text",
+    "evidence": "…nn/GSM10076935/suppl/GSM10076935_XEN_59B_morphology.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348638",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "tissue"
+  ]
+ },
+ {
+  "id": "153",
+  "accession": "GSE350715",
+  "recordType": "dataset",
+  "title": "RAI1 loss produces cell type-specific transcriptomic, circuit, and behavioural consequences across mPFC GABAergic interneuron subtypes",
+  "organism": "Mouse",
+  "tissue": "Brain",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "Visium HD",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "FFPE",
+  "numSamples": "2",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350715",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350715&targ=self&form=text",
+    "evidence": "…n a single 6.5 x 6.5 mm capture area of a 10x Genomics Visium HD slide, so that capture area 1 contains both control an…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350715&targ=self&form=text",
+    "evidence": "Series_taxon = Mus musculus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350715&targ=self&form=text",
+    "evidence": "…criptional regulator broadly expressed across multiple brain cell types, yet the cell type-specific transcriptional…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350715&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350715&targ=self&form=text",
+    "evidence": "…variable under investigation is Rai1 genotype. Coronal FFPE sections from the two animals of a given genotype were…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350715",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "isTumor"
+  ]
+ },
+ {
+  "id": "154",
+  "accession": "GSE350810",
+  "recordType": "dataset",
+  "title": "Longitudinal multi-region proteomics reveals preferential inflammatory-matrix remodeling at the infiltrative edge during glioma progression",
+  "organism": "Human",
+  "tissue": "Brain",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "Visium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Co-registered",
+  "fixation": "FFPE",
+  "numSamples": "3",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350810",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350810&targ=self&form=text",
+    "evidence": "…iptomic profiling was performed using the 10x Genomics Visium platform on human glioma tissue specimens from four pa…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350810&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350810&targ=self&form=text",
+    "evidence": "…comprising 60 tumor-core, 27 infiltrative-edge, and 15 brain-reference tissues, in a study of 29 longitudinally sam…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM10122613&targ=self&form=text",
+    "evidence": "…0122nnn/GSM10122613/suppl/GSM10122613_Glioma_Visium_S2_aligned_fiducials.jpg.gz !Sample_supplementary_file_3 = ftp://ftp.ncbi.n…",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350810&targ=self&form=text",
+    "evidence": "…-edge remodeling. Experimental Design: We profiled 102 FFPE specimens, comprising 60 tumor-core, 27 infiltrative-e…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350810",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "isTumor"
+  ]
  }
 ]
