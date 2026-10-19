@@ -171,5 +171,205 @@
    "GSM10025291"
   ],
   "citations": []
+ },
+ "GSE307688": {
+  "first_seen": "2026-10-19",
+  "status": "review",
+  "aliases": [
+   "PRJNA1322527",
+   "GSM9229327",
+   "GSM9229331",
+   "GSM9229328"
+  ],
+  "citations": []
+ },
+ "GSE317240": {
+  "first_seen": "2026-10-19",
+  "status": "review",
+  "aliases": [
+   "PRJNA1406523",
+   "GSM9467858",
+   "GSM9467857"
+  ],
+  "citations": []
+ },
+ "GSE320045": {
+  "first_seen": "2026-10-19",
+  "status": "review",
+  "aliases": [
+   "PRJNA1426059",
+   "GSM9532852",
+   "GSM9532769",
+   "GSM9532772"
+  ],
+  "citations": []
+ },
+ "GSE326793": {
+  "first_seen": "2026-10-19",
+  "status": "review",
+  "aliases": [
+   "PRJNA1447351",
+   "GSM9640652",
+   "GSM9640649",
+   "GSM9640655"
+  ],
+  "citations": []
+ },
+ "GSE327312": {
+  "first_seen": "2026-10-19",
+  "status": "proposed",
+  "aliases": [
+   "PRJNA1450400",
+   "GSM9653317",
+   "GSM9653286",
+   "GSM9653303"
+  ],
+  "citations": []
+ },
+ "GSE327615": {
+  "first_seen": "2026-10-19",
+  "status": "review",
+  "aliases": [
+   "PRJNA1451526",
+   "GSM9662250",
+   "GSM9662253",
+   "GSM9662262"
+  ],
+  "citations": []
+ },
+ "GSE327676": {
+  "first_seen": "2026-10-19",
+  "status": "review",
+  "aliases": [
+   "PRJNA1451836",
+   "GSM9649033",
+   "GSM9649013",
+   "GSM9648993"
+  ],
+  "citations": [
+   {
+    "doi": "",
+    "pmid": "",
+    "pmcid": "PMC13661668",
+    "title": "Chromosome 6q mediated loss of LATS1 tumour suppression as a targetable mechanism of ultra-high-risk posterior fossa A ependymoma",
+    "role": "reuse"
+   }
+  ]
+ },
+ "GSE333974": {
+  "first_seen": "2026-10-19",
+  "status": "review",
+  "aliases": [
+   "PRJNA1473316",
+   "GSM9778345",
+   "GSM9778302",
+   "GSM9778348"
+  ],
+  "citations": []
+ },
+ "GSE334656": {
+  "first_seen": "2026-10-19",
+  "status": "proposed",
+  "aliases": [
+   "PRJNA1476108",
+   "GSM9792808",
+   "GSM10012817"
+  ],
+  "citations": []
+ },
+ "GSE339323": {
+  "first_seen": "2026-10-19",
+  "status": "review",
+  "aliases": [
+   "PRJNA1498167",
+   "GSM9893496",
+   "GSM9893497"
+  ],
+  "citations": []
+ },
+ "GSE344843": {
+  "first_seen": "2026-10-19",
+  "status": "proposed",
+  "aliases": [
+   "PRJNA1517606",
+   "GSM9986440",
+   "GSM9986439",
+   "GSM9986438"
+  ],
+  "citations": []
+ },
+ "GSE347797": {
+  "first_seen": "2026-10-19",
+  "status": "review",
+  "aliases": [
+   "PRJNA1531188",
+   "GSM10060707",
+   "GSM10060710",
+   "GSM10060713"
+  ],
+  "citations": []
+ },
+ "GSE347958": {
+  "first_seen": "2026-10-19",
+  "status": "review",
+  "aliases": [
+   "PRJNA1531678",
+   "GSM10064442",
+   "GSM10064448",
+   "GSM10064445"
+  ],
+  "citations": []
+ },
+ "GSE348638": {
+  "first_seen": "2026-10-19",
+  "status": "review",
+  "aliases": [
+   "PRJNA1534977",
+   "GSM10076935",
+   "GSM10076938",
+   "GSM10076936"
+  ],
+  "citations": []
+ },
+ "GSE350535": {
+  "first_seen": "2026-10-19",
+  "status": "proposed",
+  "aliases": [
+   "PRJNA1542969",
+   "GSM10115993",
+   "GSM10115996",
+   "GSM10115999"
+  ],
+  "citations": []
+ },
+ "GSE350715": {
+  "first_seen": "2026-10-19",
+  "status": "review",
+  "aliases": [
+   "PRJNA1543639",
+   "GSM10119717",
+   "GSM10119716"
+  ],
+  "citations": []
+ },
+ "GSE350810": {
+  "first_seen": "2026-10-19",
+  "status": "review",
+  "aliases": [
+   "PRJNA1544030",
+   "GSM10122613",
+   "GSM10122614",
+   "GSM10122612"
+  ],
+  "citations": []
+ },
+ "GSE351148": {
+  "first_seen": "2026-10-19",
+  "status": "proposed",
+  "aliases": [
+   "PRJNA1545014",
+   "GSM10128269"
+  ],
+  "citations": []
  }
 }
