@@ -735,5 +735,875 @@
   "_missing": [
    "isTumor"
   ]
+ },
+ {
+  "id": "139",
+  "accession": "GSE292210",
+  "recordType": "dataset",
+  "title": "Uncovering the dark spatial transcriptome in polarized neuronal compartments with mcDETECT",
+  "organism": "Mouse",
+  "tissue": "Brain",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "",
+  "numSamples": "1",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE292210",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE292210&targ=self&form=text",
+    "evidence": "Series_taxon = Mus musculus; synthetic construct",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE292210&targ=self&form=text",
+    "evidence": "…is a powerful tool for studying the molecular basis of brain diseases. However, most current analyses focus on nucl…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE292210&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE292210",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "technology",
+   "isTumor"
+  ]
+ },
+ {
+  "id": "141",
+  "accession": "GSE300326",
+  "recordType": "dataset",
+  "title": "Oxidative Stress Potentiates a STAT1–APOL1 Feedforward Loop and Governs Disease Severity in APOL1-Mediated Kidney Disease",
+  "organism": "Mouse",
+  "tissue": "Kidney",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "",
+  "numSamples": "8",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE300326",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE300326&targ=self&form=text",
+    "evidence": "…d single-cell spatial transcriptomics via 10x Genomics Xenium In Situ platform were performed. Mechanistic validatio…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE300326&targ=self&form=text",
+    "evidence": "Series_taxon = Mus musculus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE300326&targ=self&form=text",
+    "evidence": "…rd Loop and Governs Disease Severity in APOL1-Mediated Kidney Disease Introduction: Apolipoprotein L1 (APOL1) risk v…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE300326&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE300326",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "isTumor"
+  ]
+ },
+ {
+  "id": "142",
+  "accession": "GSE316847",
+  "recordType": "dataset",
+  "title": "Med1 Deletion Reprograms Dental Epithelium into Primitive Hair-Forming Epidermal Architecture via Trp63 Driven Epigenetic  Alterations",
+  "organism": "Mouse",
+  "tissue": "Skin",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "",
+  "numSamples": "1",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE316847",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE316847&targ=self&form=text",
+    "evidence": "…th) are hybridized with a 100 gene custom probe set on Xenium format to examine the localization of transcript, cell…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE316847&targ=self&form=text",
+    "evidence": "Series_taxon = Mus musculus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE316847&targ=self&form=text",
+    "evidence": "…grams Dental Epithelium into Primitive Hair-Forming Epidermal Architecture via Trp63 Driven Epigenetic Alterations…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9461131&targ=self&form=text",
+    "evidence": "…n/GSM9461131/suppl/GSM9461131_morphology_focus_0000.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE316847",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "isTumor"
+  ]
+ },
+ {
+  "id": "143",
+  "accession": "GSE326776",
+  "recordType": "dataset",
+  "title": "The nail mesenchyme creates a regeneration-specific ligand environment that orchestrates mammalian regeneration versus fibrotic wound healing",
+  "organism": "Mouse",
+  "tissue": "Colon / Intestine",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "",
+  "numSamples": "98",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326776",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326776&targ=self&form=text",
+    "evidence": "…nd anti-fibrosis strategies. !Series_overall_design = Xenium multiplexed in situ hybridization was performed on sag…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326776&targ=self&form=text",
+    "evidence": "Series_taxon = Mus musculus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326776&targ=self&form=text",
+    "evidence": "…at 7dpa in WT and ablated conditions from Lmx1bCre;DTA colony to study the role of nail mesenchyme in digit tip reg…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM10025820&targ=self&form=text",
+    "evidence": "…M10025820_Fresh_frozen_Uninjured_fov1to9_morphology.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326776",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "isTumor"
+  ]
+ },
+ {
+  "id": "144",
+  "accession": "GSE330794",
+  "recordType": "dataset",
+  "title": "Clinical response to glioma virotherapy is linked to immune organization and T cell diversity.",
+  "organism": "Human",
+  "tissue": "",
+  "isTumor": "Yes",
+  "cancerType": "",
+  "technology": "",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "",
+  "numSamples": "33",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE330794",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE330794&targ=self&form=text",
+    "evidence": "Series_taxon = Mesocricetus auratus; Homo sapiens",
+    "method": "deterministic"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE330794&targ=self&form=text",
+    "evidence": "…ontact_institute = The University of Texas MD Anderson Cancer Center !Series_contact_address = 6767 Bertner Ave !S…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9731397&targ=self&form=text",
+    "evidence": "…1397/suppl/GSM9731397_P41-post_section_1_morphology.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE330794",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "technology",
+   "tissue"
+  ]
+ },
+ {
+  "id": "145",
+  "accession": "GSE331239",
+  "recordType": "dataset",
+  "title": "Stereo-seq of aortic atherosclerotic lesions in common mouse models",
+  "organism": "Mouse",
+  "tissue": "",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "Stereo-seq",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "",
+  "numSamples": "3",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE331239",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE331239&targ=self&form=text",
+    "evidence": "Stereo-seq of aortic atherosclerotic lesions in common mouse mode…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE331239&targ=self&form=text",
+    "evidence": "Series_taxon = Mus musculus",
+    "method": "deterministic"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE331239&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE331239",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "tissue",
+   "isTumor"
+  ]
+ },
+ {
+  "id": "146",
+  "accession": "GSE334605",
+  "recordType": "dataset",
+  "title": "Oxidative Stress Potentiates a STAT1–APOL1 Feedforward Loop and Governs Disease Severity in APOL1-Mediated Kidney Disease [Xenium]",
+  "organism": "Mouse",
+  "tissue": "Kidney",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "FFPE",
+  "numSamples": "2",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334605",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334605&targ=self&form=text",
+    "evidence": "…rns Disease Severity in APOL1-Mediated Kidney Disease [Xenium] Introduction: Apolipoprotein L1 (APOL1) risk variants…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334605&targ=self&form=text",
+    "evidence": "Series_taxon = Mus musculus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334605&targ=self&form=text",
+    "evidence": "…rd Loop and Governs Disease Severity in APOL1-Mediated Kidney Disease [Xenium] Introduction: Apolipoprotein L1 (APOL…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9791665&targ=self&form=text",
+    "evidence": "…9791nnn/GSM9791665/suppl/GSM9791665_TMA1_morphology.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334605&targ=self&form=text",
+    "evidence": "…ia 10x Genomics Xenium platform was performed on mouse FFPE samples from APOL1-BAC transgenic mice. !Series_type…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334605",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "isTumor"
+  ]
+ },
+ {
+  "id": "149",
+  "accession": "GSE337607",
+  "recordType": "dataset",
+  "title": "Single-cell Multiome Analysis of Chromatin State and Transcriptome in the Human Basal Ganglia",
+  "organism": "Human",
+  "tissue": "",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "MERFISH",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "",
+  "numSamples": "26",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE337607",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE337607&targ=self&form=text",
+    "evidence": "…ll identity in basal ganglia. Integration with matched MERFISH spatial transcriptomics further uncovers regional hete…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE337607&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE337607&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE337607",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "tissue",
+   "isTumor"
+  ]
+ },
+ {
+  "id": "150",
+  "accession": "GSE338696",
+  "recordType": "dataset",
+  "title": "Attenuation of DOK3 re-programs tumor-associated macrophages to enhance anti-PD-1-mediated cancer immunotherapy",
+  "organism": "Human",
+  "tissue": "",
+  "isTumor": "Yes",
+  "cancerType": "",
+  "technology": "GeoMx",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "FFPE",
+  "numSamples": "408",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE338696",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE338696&targ=self&form=text",
+    "evidence": "…design = This is a spatial transcriptomics study using GeoMx Digital Spatial Profiler (DSP) technology on FFPE need…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE338696&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE338696&targ=self&form=text",
+    "evidence": "Attenuation of DOK3 re-programs tumor-associated macrophages to enhance anti-PD-1-mediated c…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE338696&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE338696&targ=self&form=text",
+    "evidence": "…ing GeoMx Digital Spatial Profiler (DSP) technology on FFPE needle biopsy samples obtained from the LARA Phase II…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE338696",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "tissue"
+  ]
+ },
+ {
+  "id": "151",
+  "accession": "GSE341398",
+  "recordType": "dataset",
+  "title": "GOLDEN: Gene expression and allele-informed decomposition for genetic heterogeneity in spatial transcriptomic data",
+  "organism": "Human",
+  "tissue": "",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "Visium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Co-registered",
+  "fixation": "FFPE",
+  "numSamples": "2",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE341398",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE341398&targ=self&form=text",
+    "evidence": "…scriptomics data were generated using the 10x Genomics Visium CytAssist Spatial Gene Expression platform (Visium V4…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE341398&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9906056&targ=self&form=text",
+    "evidence": "…les/GSM9906nnn/GSM9906056/suppl/GSM9906056_Norm1FxFVis_scalefactors_json.json.gz !Sample_supplementary_file_6 = ftp://ftp.ncbi.…",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE341398&targ=self&form=text",
+    "evidence": "…ist Spatial Gene Expression platform (Visium V4 Slide, FFPE v2 chemistry) with the Visium Human Transcriptome Prob…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE341398",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "tissue",
+   "isTumor"
+  ]
+ },
+ {
+  "id": "157",
+  "accession": "GSE349780",
+  "recordType": "dataset",
+  "title": "Mycobacterium abscessus EsxUT subverts TFEB-dependent lysosomal host defense through the GRP78-IRE1α signaling axis",
+  "organism": "Mouse",
+  "tissue": "Lung",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "Visium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Co-registered",
+  "fixation": "FFPE",
+  "numSamples": "1",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349780",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349780&targ=self&form=text",
+    "evidence": "…esign = Spatial transcriptomic profiling (10x Genomics Visium CytAssist, FFPE) of lung tissue from mice infected wit…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349780&targ=self&form=text",
+    "evidence": "Series_taxon = Mus musculus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349780&targ=self&form=text",
+    "evidence": "…ith these findings, deletion of esxUT markedly reduced pulmonary bacterial burden and lung immunopathology in mice. Mor…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM10101229&targ=self&form=text",
+    "evidence": "…les/GSM10101nnn/GSM10101229/suppl/GSM10101229_EsxUT_KO_aligned_fiducials.jpg.gz !Sample_supplementary_file_4 = ftp://ftp.ncbi.n…",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349780&targ=self&form=text",
+    "evidence": "…anscriptomic profiling (10x Genomics Visium CytAssist, FFPE) of lung tissue from mice infected with wild-type Myco…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349780",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "isTumor"
+  ]
+ },
+ {
+  "id": "158",
+  "accession": "GSE350895",
+  "recordType": "dataset",
+  "title": "Spatial transcriptomic analysis of fibroblast therapy with collagen/PMMA in human skin [Xenium]",
+  "organism": "Human",
+  "tissue": "Skin",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "",
+  "numSamples": "3",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350895",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350895&targ=self&form=text",
+    "evidence": "…f fibroblast therapy with collagen/PMMA in human skin [Xenium] Xenium spatial transcriptomic analysis was performed…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350895&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350895&targ=self&form=text",
+    "evidence": "…ysis of fibroblast therapy with collagen/PMMA in human skin [Xenium] Xenium spatial transcriptomic analysis was pe…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM10124176&targ=self&form=text",
+    "evidence": "…nnn/GSM10124176/suppl/GSM10124176_136-43_morphology.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350895",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "isTumor"
+  ]
+ },
+ {
+  "id": "159",
+  "accession": "GSE351686",
+  "recordType": "dataset",
+  "title": "Molecular mapping of developing synovial fibroblasts in the TMJ reveals the crucial role of mechanical force in cavitation",
+  "organism": "Human",
+  "tissue": "Skin",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "CosMx",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "FFPE",
+  "numSamples": "3",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351686",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351686&targ=self&form=text",
+    "evidence": "…In the study presented here, spatial transcriptomics, CosMx with the 1000-plex gene panel, was conducted on FFPE s…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351686&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351686&targ=self&form=text",
+    "evidence": "…hyme with delayed development, distinct from other mesodermal derived majority synovial joints. Here, we perfomed sp…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351686&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351686&targ=self&form=text",
+    "evidence": "…CosMx with the 1000-plex gene panel, was conducted on FFPE slides of human embryonic TMJs with 158 fields of view…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351686",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "isTumor"
+  ]
+ },
+ {
+  "id": "161",
+  "accession": "GSE351967",
+  "recordType": "dataset",
+  "title": "T cell responses distinguish the subset of oral dysplasia that progressed to cancer",
+  "organism": "Human",
+  "tissue": "",
+  "isTumor": "Yes",
+  "cancerType": "",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "FFPE",
+  "numSamples": "16",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351967",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351967&targ=self&form=text",
+    "evidence": "…ed tissue microarrays were sectioned (5 µm thick) onto Xenium slides (10X Genomics) according to the tissue preparat…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351967&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351967&targ=self&form=text",
+    "evidence": "…nguish the subset of oral dysplasia that progressed to cancer The factors that determine which oral premalignant les…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM10146882&targ=self&form=text",
+    "evidence": "…82/suppl/GSM10146882_TMA_14_Validation_P_morphology.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351967&targ=self&form=text",
+    "evidence": "…e cores were assembled into tissue microarrays (TMAs). Formalin-fixed paraffin embedded tissue microarrays were sectioned (5…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351967",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "tissue"
+  ]
+ },
+ {
+  "id": "162",
+  "accession": "GSE352523",
+  "recordType": "dataset",
+  "title": "Cilengitide limits the progression of both syndromic and sporadic thoracic aortic aneurysms by targeting alpha V integrins",
+  "organism": "Human",
+  "tissue": "",
+  "isTumor": "No",
+  "cancerType": "",
+  "technology": "Visium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Co-registered",
+  "fixation": "FFPE",
+  "numSamples": "11",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE352523",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE352523&targ=self&form=text",
+    "evidence": "…c tissue sections were profiled using the 10x Genomics Visium platform. Spatially resolved gene expression profiles…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE352523&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE352523&targ=self&form=text",
+    "evidence": "…ression patterns in human ascending aortic tissue from healthy controls, patients with Marfan syndrome (MFS), and pat…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM10157800&targ=self&form=text",
+    "evidence": "…es/GSM10157nnn/GSM10157800/suppl/GSM10157800_TAA_MO12A_aligned_fiducials.jpg.gz !Sample_supplementary_file_2 = ftp://ftp.ncbi.n…",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE352523&targ=self&form=text",
+    "evidence": "…ng the 10x Genomics Visium Spatial Gene Expression for FFPE assay. !Series_type = Other !Series_sample_id = GSM1…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE352523",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "tissue"
+  ]
  }
 ]
