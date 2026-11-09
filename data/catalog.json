@@ -2819,5 +2819,792 @@
     "method": "deterministic"
    }
   }
+ },
+ {
+  "id": "138",
+  "accession": "GSE189363",
+  "recordType": "dataset",
+  "title": "Immune microenvironmental phenotypes of early recurrence of liver cancer and lung cancer",
+  "organism": "Human",
+  "tissue": "Lung",
+  "isTumor": "Yes",
+  "cancerType": "Lung carcinoma",
+  "technology": "GeoMx",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "",
+  "numSamples": "120",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE189363",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE189363&targ=self&form=text",
+    "evidence": "…corresponding protein-enriched region with Nanostring GeoMx Digital Spatial Profiler (DSP) to extract the mRNA dat…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE189363&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE189363&targ=self&form=text",
+    "evidence": "…tal phenotypes of early recurrence of liver cancer and lung cancer The recurrence of liver cancer and lung cancer…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE189363&targ=self&form=text",
+    "evidence": "…oenvironmental phenotypes of early recurrence of liver cancer and lung cancer The recurrence of liver cancer and lun…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE189363&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE189363",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "139",
+  "accession": "GSE305509",
+  "recordType": "dataset",
+  "title": "The Role and Therapeutic Targeting of Diazepam Binding Inhibitor in Epilepsy and Glioma",
+  "organism": "Human",
+  "tissue": "Brain",
+  "isTumor": "Yes",
+  "cancerType": "Glioblastoma",
+  "technology": "Visium HD",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "",
+  "numSamples": "15",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE305509",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE305509&targ=self&form=text",
+    "evidence": "…0.0001). Single-cell spatial transcriptomics using the Visium HD platform on minimal residual disease samples from glio…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE305509&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE305509&targ=self&form=text",
+    "evidence": "…sequencing from 15 samples including matched adjacent cortex !Series_type = Expression profiling by high throughpu…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE305509&targ=self&form=text",
+    "evidence": "…pression correlating with glioblastoma progression and tumor connectivity scores. As such, we devised a first-in-cl…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE305509&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE305509",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "140",
+  "accession": "GSE326889",
+  "recordType": "dataset",
+  "title": "The Developing Niche Regulates Engrafted Muscle Stem Cell Retention in Dystrophic and Regenerating Skeletal Muscle",
+  "organism": "Human",
+  "tissue": "Muscle",
+  "isTumor": "No",
+  "cancerType": "",
+  "technology": "GeoMx",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "",
+  "numSamples": "624",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326889",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326889&targ=self&form=text",
+    "evidence": "…al transcriptomic analysis using the Nanostring/Bruker GeoMX Digitial Spatial Profiler to assess the gene expressio…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326889&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326889&targ=self&form=text",
+    "evidence": "The Developing Niche Regulates Engrafted Muscle Stem Cell Retention in Dystrophic and Regenerating Ske…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326889&targ=self&form=text",
+    "evidence": "…ation at seven early and late time points including in healthy and dystrophic muscle and after secondary injury. Surp…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326889&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326889",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "141",
+  "accession": "GSE326970",
+  "recordType": "dataset",
+  "title": "Ecologic determinants of disease and immunity in myelodysplastic syndromes [Xenium]",
+  "organism": "Human",
+  "tissue": "Bone marrow",
+  "isTumor": "Yes",
+  "cancerType": "",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "",
+  "numSamples": "82",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326970",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326970&targ=self&form=text",
+    "evidence": "…of disease and immunity in myelodysplastic syndromes [Xenium] Myelodysplastic syndromes (MDS) are clonal hematopoie…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326970&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326970&targ=self&form=text",
+    "evidence": "…e been well-characterized, molecular assessment of the bone marrow in situ has been limited. Here we present single cell…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326970&targ=self&form=text",
+    "evidence": "…elodysplastic syndromes (MDS) are clonal hematopoietic malignancies characterized by ineffective hematopoiesis, dyspla…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9644741&targ=self&form=text",
+    "evidence": "…9644741/suppl/GSM9644741_region1_0033134_morphology.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326970",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "142",
+  "accession": "GSE327754",
+  "recordType": "dataset",
+  "title": "Spatial determinants of tumor cell dedifferentiation and plasticity in primary cutaneous melanoma",
+  "organism": "Human",
+  "tissue": "Skin",
+  "isTumor": "Yes",
+  "cancerType": "Melanoma",
+  "technology": "GeoMx",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "",
+  "numSamples": "900",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327754",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327754&targ=self&form=text",
+    "evidence": "…ns. !Series_overall_design = Spatial transcriptomics (GeoMx WTA) data for 56 patient samples (primary cutaneous me…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327754&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327754&targ=self&form=text",
+    "evidence": "…tumor cell dedifferentiation and plasticity in primary cutaneous melanoma Localized cutaneous melanoma can be cured by…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327754&targ=self&form=text",
+    "evidence": "Spatial determinants of tumor cell dedifferentiation and plasticity in primary cutan…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327754&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327754",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "144",
+  "accession": "GSE330731",
+  "recordType": "dataset",
+  "title": "Clinical response to glioma virotherapy is linked to immune organization and T cell diversity [Xenium]",
+  "organism": "Human",
+  "tissue": "Brain",
+  "isTumor": "Yes",
+  "cancerType": "",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "",
+  "numSamples": "17",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE330731",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE330731&targ=self&form=text",
+    "evidence": "…is linked to immune organization and T cell diversity [Xenium] Currently, there are no predictors of clinical outcom…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE330731&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens; Mesocricetus auratus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE330731&targ=self&form=text",
+    "evidence": "…rently, there are no predictors of clinical outcome in brain tumors treated with oncolytic virotherapy. We analyzed…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE330731&targ=self&form=text",
+    "evidence": "…, there are no predictors of clinical outcome in brain tumors treated with oncolytic virotherapy. We analyzed surgi…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9731401&targ=self&form=text",
+    "evidence": "…1401/suppl/GSM9731401_hamster_glioma_TMA_morphology.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE330731",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "145",
+  "accession": "GSE330793",
+  "recordType": "dataset",
+  "title": "Clinical response to glioma virotherapy is linked to immune organization and T cell diversity [TCR-Seq]",
+  "organism": "Human",
+  "tissue": "Brain",
+  "isTumor": "Yes",
+  "cancerType": "",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "",
+  "numSamples": "16",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE330793",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE330793&targ=self&form=text",
+    "evidence": "…h throughput DNA in situ hybridization performed with Xenium protocols on malignant glioma tissues from human patie…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE330793&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE330793&targ=self&form=text",
+    "evidence": "…rently, there are no predictors of clinical outcome in brain tumors treated with oncolytic virotherapy. We analyzed…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE330793&targ=self&form=text",
+    "evidence": "…, there are no predictors of clinical outcome in brain tumors treated with oncolytic virotherapy. We analyzed surgi…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE330793&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE330793",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "146",
+  "accession": "GSE333810",
+  "recordType": "dataset",
+  "title": "Inducing immunogenic lymphoid niches across cancers by tumor-to-dendritic cell reprogramming [GeoMx]",
+  "organism": "Mouse",
+  "tissue": "Breast",
+  "isTumor": "Yes",
+  "cancerType": "Melanoma",
+  "technology": "GeoMx",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "",
+  "numSamples": "58",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE333810",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE333810&targ=self&form=text",
+    "evidence": "…ross cancers by tumor-to-dendritic cell reprogramming [GeoMx] Tertiary lymphoid structures (TLSs) in tumors are ass…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE333810&targ=self&form=text",
+    "evidence": "Series_taxon = Mus musculus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE333810&targ=self&form=text",
+    "evidence": "…ogenic TLSs (imgTLSs) across melanoma, colon, bladder, breast, and pancreatic cancer models with distinct genetic ba…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE333810&targ=self&form=text",
+    "evidence": "Inducing immunogenic lymphoid niches across cancers by tumor-to-dendritic cell reprogramming [GeoMx] Tert…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE333810&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE333810",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "148",
+  "accession": "GSE343118",
+  "recordType": "dataset",
+  "title": "Spatial transcriptomic profiling of primary lung adenocarcinomas and lymph node metastases",
+  "organism": "Human",
+  "tissue": "Lung",
+  "isTumor": "Yes",
+  "cancerType": "",
+  "technology": "Visium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "FFPE",
+  "numSamples": "7",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE343118",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE343118&targ=self&form=text",
+    "evidence": "…stasis tissue microarray slides using the 10x Genomics Visium platform. These data were used to compare spatial tran…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE343118&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE343118&targ=self&form=text",
+    "evidence": "Spatial transcriptomic profiling of primary lung adenocarcinomas and lymph node metastases Lung adenoca…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE343118&targ=self&form=text",
+    "evidence": "Spatial transcriptomic profiling of primary lung adenocarcinomas and lymph node metastases Lung adenocarcinoma (LUAD)…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE343118&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE343118&targ=self&form=text",
+    "evidence": "…stood. We generated spatial transcriptomic profiles of formalin-fixed paraffin-embedded primary LUAD specimens and lymph nod…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE343118",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "151",
+  "accession": "GSE350571",
+  "recordType": "dataset",
+  "title": "A cellular and vascular atlas of the breast tumor microenvironment with multi-resolution spatial transcriptomics [10x Xenium]",
+  "organism": "Human",
+  "tissue": "Breast",
+  "isTumor": "Yes",
+  "cancerType": "",
+  "technology": "Visium HD",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "FFPE",
+  "numSamples": "6",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350571",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350571&targ=self&form=text",
+    "evidence": "…in duplicate, plus 7 matched uninvolved lymph nodes), Visium HD data from 4 tumors and Xenium data from 6 tumors. We i…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350571&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350571&targ=self&form=text",
+    "evidence": "A cellular and vascular atlas of the breast tumor microenvironment with multi-resolution spatial t…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350571&targ=self&form=text",
+    "evidence": "A cellular and vascular atlas of the breast tumor microenvironment with multi-resolution spatial transcr…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM10116357&targ=self&form=text",
+    "evidence": "…n/GSM10116357/suppl/GSM10116357_P32_Xe5k_morphology.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350571&targ=self&form=text",
+    "evidence": "…eries contains the study's 10x Xenium Prime 5K data: 6 FFPE primary breast tumour sections (patients P17, P22, P24…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350571",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "152",
+  "accession": "GSE351843",
+  "recordType": "dataset",
+  "title": "A cellular and vascular atlas of the breast tumor microenvironment with multi-resolution spatial transcriptomics [10x Visium]",
+  "organism": "Human",
+  "tissue": "Breast",
+  "isTumor": "Yes",
+  "cancerType": "Breast carcinoma",
+  "technology": "Visium HD",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Co-registered",
+  "fixation": "FFPE",
+  "numSamples": "40",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351843",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351843&targ=self&form=text",
+    "evidence": "…in duplicate, plus 7 matched uninvolved lymph nodes), Visium HD data from 4 tumors and Xenium data from 6 tumors. We i…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351843&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351843&targ=self&form=text",
+    "evidence": "A cellular and vascular atlas of the breast tumor microenvironment with multi-resolution spatial t…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351843&targ=self&form=text",
+    "evidence": "A cellular and vascular atlas of the breast tumor microenvironment with multi-resolution spatial transcr…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM10144995&targ=self&form=text",
+    "evidence": "…10144nnn/GSM10144995/suppl/GSM10144995_P09_Vis_spatial_aligned_fiducials.jpg.gz !Sample_supplementary_file_5 = ftp://ftp.ncbi.n…",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351843&targ=self&form=text",
+    "evidence": "…his SubSeries contains the study's 10x Visium data: 40 formalin-fixed paraffin-embedded (FFPE) sections — 33 primary breast…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351843",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "153",
+  "accession": "GSE351849",
+  "recordType": "dataset",
+  "title": "A cellular and vascular atlas of the breast tumor microenvironment with multi-resolution spatial transcriptomics [10x Visium HD]",
+  "organism": "Human",
+  "tissue": "Breast",
+  "isTumor": "Yes",
+  "cancerType": "",
+  "technology": "Visium HD",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Co-registered",
+  "fixation": "FFPE",
+  "numSamples": "4",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351849",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351849&targ=self&form=text",
+    "evidence": "…ent with multi-resolution spatial transcriptomics [10x Visium HD] Spatial transcriptomic profiling of human breast tumo…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351849&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351849&targ=self&form=text",
+    "evidence": "A cellular and vascular atlas of the breast tumor microenvironment with multi-resolution spatial t…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351849&targ=self&form=text",
+    "evidence": "A cellular and vascular atlas of the breast tumor microenvironment with multi-resolution spatial transcr…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM10145103&targ=self&form=text",
+    "evidence": "…M10145nnn/GSM10145103/suppl/GSM10145103_P26_HD_spatial_aligned_fiducials.jpg.gz !Sample_supplementary_file_4 = ftp://ftp.ncbi.n…",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351849&targ=self&form=text",
+    "evidence": "…s SubSeries contains the study's 10x Visium HD data: 4 FFPE primary breast tumour sections (patients P26, P27, P29…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351849",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "156",
+  "accession": "GSE352711",
+  "recordType": "dataset",
+  "title": "Ecotypes of triple-negative breast cancer in response to chemotherapy [Visium]",
+  "organism": "Human",
+  "tissue": "Breast",
+  "isTumor": "Yes",
+  "cancerType": "Breast carcinoma",
+  "technology": "Visium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Co-registered",
+  "fixation": "",
+  "numSamples": "14",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE352711",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE352711&targ=self&form=text",
+    "evidence": "…le-negative breast cancer in response to chemotherapy [Visium] Triple-negative breast cancer (TNBC) is an aggressive…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE352711&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE352711&targ=self&form=text",
+    "evidence": "Ecotypes of triple-negative breast cancer in response to chemotherapy [Visium] Triple-neg…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE352711&targ=self&form=text",
+    "evidence": "Ecotypes of triple-negative breast cancer in response to chemotherapy [Visium] Triple-negative b…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM10161639&targ=self&form=text",
+    "evidence": "…ples/GSM10161nnn/GSM10161639/suppl/GSM10161639_P90_P71_scalefactors_json.json.gz !Sample_supplementary_file_5 = ftp://ftp.ncbi.…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE352711",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
  }
 ]
