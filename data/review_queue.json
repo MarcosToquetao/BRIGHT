@@ -735,5 +735,164 @@
   "_missing": [
    "isTumor"
   ]
+ },
+ {
+  "id": "138",
+  "accession": "GSE255064",
+  "recordType": "dataset",
+  "title": "Spatiotemporal transcriptome analysis of bamboo shoots reveals gene regulation dynamics essential for organogenesis during rapid growth",
+  "organism": "",
+  "tissue": "",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "Visium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "",
+  "numSamples": "7",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE255064",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE255064&targ=self&form=text",
+    "evidence": "…opmental stages of moso bamboo shoots. Utilizing a 10x Visium platform, we accomplished a sagittal plane for each st…",
+    "method": "regex"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE255064&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE255064",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "tissue",
+   "isTumor",
+   "organism"
+  ]
+ },
+ {
+  "id": "142",
+  "accession": "GSE329451",
+  "recordType": "dataset",
+  "title": "Methods for tissue preservation for image-based spatial transcriptomics",
+  "organism": "Mouse",
+  "tissue": "Lung",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "MERFISH",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "",
+  "numSamples": "12",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329451",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329451&targ=self&form=text",
+    "evidence": "…protect this highly labile molecule. Here we leverage MERFISH in a range of tissues to show that tissue-dependent di…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329451&targ=self&form=text",
+    "evidence": "Series_taxon = Mus musculus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329451&targ=self&form=text",
+    "evidence": "…erall_design = RNA-seq profiling of mouse duodenum and lung tissues following immediate isolation, 48-hour incubat…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329451&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329451",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "isTumor"
+  ]
+ },
+ {
+  "id": "144",
+  "accession": "GSE346811",
+  "recordType": "dataset",
+  "title": "Transcriptomic characterization of macrophage subtype and behavior in early stage myocardial infarction",
+  "organism": "Mouse",
+  "tissue": "Heart",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Co-registered",
+  "fixation": "",
+  "numSamples": "3",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE346811",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE346811&targ=self&form=text",
+    "evidence": "Series_taxon = Mus musculus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE346811&targ=self&form=text",
+    "evidence": "…tion of macrophage subtype and behavior in early stage myocardial infarction Background: Acute myocardial infarction…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM10040781&targ=self&form=text",
+    "evidence": "…/geo/samples/GSM10040nnn/GSM10040781/suppl/GSM10040781_aligned_fiducials_MI_4d.jpg.gz !Sample_supplementary_file_2 = ftp://ftp.…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE346811",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "technology",
+   "isTumor"
+  ]
  }
 ]

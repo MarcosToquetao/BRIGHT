@@ -2819,5 +2819,433 @@
     "method": "deterministic"
    }
   }
+ },
+ {
+  "id": "139",
+  "accession": "GSE314178",
+  "recordType": "dataset",
+  "title": "Cancer-cell MHC-II presentation promotes anti-tumor CD4 T+ cell responses and improves vaccine efficacy.",
+  "organism": "Mouse",
+  "tissue": "Lung",
+  "isTumor": "Yes",
+  "cancerType": "Lung carcinoma",
+  "technology": "Visium HD",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Co-registered",
+  "fixation": "FFPE",
+  "numSamples": "2",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314178",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314178&targ=self&form=text",
+    "evidence": "…s RNeasy FFPE Kit. Then, adequate DV200 levels for 10x Visium HD were confirmed on an Agilent 4200 TapeStation. Next, t…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314178&targ=self&form=text",
+    "evidence": "Series_taxon = Mus musculus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314178&targ=self&form=text",
+    "evidence": "…D4+ T cell response in an autochthonous mouse model of lung cancer. CD4+ T cells proved critical for effective ant…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314178&targ=self&form=text",
+    "evidence": "Cancer-cell MHC-II presentation promotes anti-tumor CD4 T+ ce…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9383283&targ=self&form=text",
+    "evidence": "…amples/GSM9383nnn/GSM9383283/suppl/GSM9383283_D25_4044_aligned_fiducials.jpg.gz !Sample_supplementary_file_2 = ftp://ftp.ncbi.n…",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314178&targ=self&form=text",
+    "evidence": "…nt samples were then packed tightly and processed into FFPE blocks at the KI Histology core using standard protoco…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314178",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "140",
+  "accession": "GSE317545",
+  "recordType": "dataset",
+  "title": "The cellular origin of invasive mucinous adenocarcinoma of lung",
+  "organism": "Human",
+  "tissue": "Lung",
+  "isTumor": "Yes",
+  "cancerType": "Lung carcinoma",
+  "technology": "GeoMx",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "FFPE",
+  "numSamples": "121",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317545",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317545&targ=self&form=text",
+    "evidence": "…lung tissues from 26 patients were analyzed using the GeoMx digital spatial profiling platform. A total of 120 cyt…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317545&targ=self&form=text",
+    "evidence": "Series_taxon = blank sample; Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317545&targ=self&form=text",
+    "evidence": "…cellular origin of invasive mucinous adenocarcinoma of lung Invasive mucinous adenocarcinoma of the lung is a dist…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317545&targ=self&form=text",
+    "evidence": "The cellular origin of invasive mucinous adenocarcinoma of lung Invasive mucinous adenocarcinoma of the lung i…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317545&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317545&targ=self&form=text",
+    "evidence": "…ionships across the mucinous spectrum of lung lesions. Formalin-fixed, paraffin-embedded lung tissues from 26 patients were…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317545",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "141",
+  "accession": "GSE320436",
+  "recordType": "dataset",
+  "title": "Spatially organized mregDC-centered niches define distinct T cell activation states in premetastatic lymph nodes of esophageal cancer [Xenium]",
+  "organism": "Human",
+  "tissue": "Lymph node",
+  "isTumor": "Yes",
+  "cancerType": "",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "FFPE",
+  "numSamples": "15",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE320436",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE320436&targ=self&form=text",
+    "evidence": "…tes in premetastatic lymph nodes of esophageal cancer [Xenium] Esophageal squamous cell carcinoma (ESCC) exhibits a…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE320436&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE320436&targ=self&form=text",
+    "evidence": "…ine distinct T cell activation states in premetastatic lymph nodes of esophageal cancer [Xenium] Esophageal squamous cel…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE320436&targ=self&form=text",
+    "evidence": "…tion states in premetastatic lymph nodes of esophageal cancer [Xenium] Esophageal squamous cell carcinoma (ESCC) exh…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9543322&targ=self&form=text",
+    "evidence": "…3nnn/GSM9543322/suppl/GSM9543322_EX_LN6m_morphology.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE320436&targ=self&form=text",
+    "evidence": "…enium In Situ spatial transcriptomics was performed on formalin-fixed paraffin-embedded (FFPE) lymph node sections from 15 E…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE320436",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "143",
+  "accession": "GSE329792",
+  "recordType": "dataset",
+  "title": "TIGIT and PD-L1 co-blockade promotes dendritic cell-dependent production of non-exhausted CD8+ T cells",
+  "organism": "Mouse",
+  "tissue": "Breast",
+  "isTumor": "Yes",
+  "cancerType": "",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "",
+  "numSamples": "18",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329792",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329792&targ=self&form=text",
+    "evidence": "…samples were collected and analyzed with 10x Genomics Xenium spatial transcriptomics. !Series_type = Other !Serie…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329792&targ=self&form=text",
+    "evidence": "Series_taxon = Mus musculus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329792&targ=self&form=text",
+    "evidence": "…1x105 EO771 tumor cells orthotopically into the fifth mammary fat pad. After approximately 10-12 days, mice with tum…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329792&targ=self&form=text",
+    "evidence": "…CD8+ T cells Checkpoint inhibitors have revolutionized cancer treatment, but their mechanisms of action remain incom…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9711348&targ=self&form=text",
+    "evidence": "…043_0052421_H2024-487-14_20250116_204517_morphology.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329792",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "145",
+  "accession": "GSE347320",
+  "recordType": "dataset",
+  "title": "Metabolic and Inflammatory Niches Driving Recurrence in Adjuvant-Treated NSCLC (GeoMX WTA)",
+  "organism": "Human",
+  "tissue": "Lung",
+  "isTumor": "Yes",
+  "cancerType": "Lung carcinoma",
+  "technology": "GeoMx",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "",
+  "numSamples": "98",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347320",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347320&targ=self&form=text",
+    "evidence": "…y Niches Driving Recurrence in Adjuvant-Treated NSCLC (GeoMX WTA) While there have been therapeutic advancements in…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347320&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347320&targ=self&form=text",
+    "evidence": "…rapeutic advancements in treatments for non-small cell lung cancer (NSCLC), our current grasp of the underlying tu…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347320&targ=self&form=text",
+    "evidence": "…tic advancements in treatments for non-small cell lung cancer (NSCLC), our current grasp of the underlying tumour co…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347320&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347320",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "146",
+  "accession": "GSE348499",
+  "recordType": "dataset",
+  "title": "Ecotypes of triple-negative breast cancer in response to chemotherapy",
+  "organism": "Human",
+  "tissue": "Breast",
+  "isTumor": "Yes",
+  "cancerType": "Breast carcinoma",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Paired",
+  "fixation": "",
+  "numSamples": "44",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348499",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348499&targ=self&form=text",
+    "evidence": "…with chemotherapy response. !Series_overall_design = Xenium was performed on 44 patients with TNBC receiving chemo…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348499&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348499&targ=self&form=text",
+    "evidence": "Ecotypes of triple-negative breast cancer in response to chemotherapy Triple-negative bre…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348499&targ=self&form=text",
+    "evidence": "Ecotypes of triple-negative breast cancer in response to chemotherapy Triple-negative breast can…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM10073501&targ=self&form=text",
+    "evidence": "…073nnn/GSM10073501/suppl/GSM10073501_P40_morphology.ome.tif.gz !Sample_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348499",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
+ },
+ {
+  "id": "147",
+  "accession": "GSE349849",
+  "recordType": "dataset",
+  "title": "Spatial transcriptomics maps region and isoform specific brain alterations in mdx and mdx4cv models of Duchenne muscular dystrophy",
+  "organism": "Mouse",
+  "tissue": "Brain",
+  "isTumor": "No",
+  "cancerType": "",
+  "technology": "Visium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Co-registered",
+  "fixation": "",
+  "numSamples": "10",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349849",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349849&targ=self&form=text",
+    "evidence": "…peutic studies. !Series_overall_design = We performed Visium spatial transcriptomics on sagittal brain sections fro…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349849&targ=self&form=text",
+    "evidence": "Series_taxon = Mus musculus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349849&targ=self&form=text",
+    "evidence": "…atial transcriptomics maps region and isoform specific brain alterations in mdx and mdx4cv models of Duchenne muscu…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349849&targ=self&form=text",
+    "evidence": "…models (lacking Dp427 or Dp427+Dp140 respectively) and healthy controls aged 2 weeks. Both dystrophic models showed t…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM10102508&targ=self&form=text",
+    "evidence": "…GSM10102nnn/GSM10102508/suppl/GSM10102508_mdxbl6_brain_aligned_fiducials.jpg.gz !Sample_supplementary_file_3 = ftp://ftp.ncbi.n…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349849",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  }
  }
 ]
