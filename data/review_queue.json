@@ -735,5 +735,409 @@
   "_missing": [
    "isTumor"
   ]
+ },
+ {
+  "id": "138",
+  "accession": "GSE296968",
+  "recordType": "dataset",
+  "title": "Spatial metabolic communication flow of single cells",
+  "organism": "Human",
+  "tissue": "Brain",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "Visium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Co-registered",
+  "fixation": "",
+  "numSamples": "1",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE296968",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE296968&targ=self&form=text",
+    "evidence": "…ubjected the samples to spatial sequencing using a 10X Visium system. ^SERIES = GSE296968 !Series_title = Spatial m…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE296968&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE296968&targ=self&form=text",
+    "evidence": "…MetaChat for the central nervous system, we generated cerebral cortical organoids from human embryonic stem cells i…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8980877&targ=self&form=text",
+    "evidence": "…gov/geo/samples/GSM8980nnn/GSM8980877/suppl/GSM8980877_aligned_fiducials.jpg.gz !Sample_supplementary_file_2 = ftp://ftp.ncbi.n…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE296968",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "isTumor"
+  ]
+ },
+ {
+  "id": "140",
+  "accession": "GSE317180",
+  "recordType": "dataset",
+  "title": "An enhanced single-cell and spatial atlas of the mouse hypothalamus: open-st spatial transcriptomics data",
+  "organism": "Mouse",
+  "tissue": "Brain",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "Open-ST",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "",
+  "numSamples": "19",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317180",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317180&targ=self&form=text",
+    "evidence": "…ngle-cell and spatial atlas of the mouse hypothalamus: open-st spatial transcriptomics data The hypothalamus plays a…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317180&targ=self&form=text",
+    "evidence": "Series_taxon = Mus musculus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317180&targ=self&form=text",
+    "evidence": "…of the hypothalamus. !Series_overall_design = Coronal brain slices of the hypothalamus from two wildtype mice were…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317180&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317180",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "isTumor"
+  ]
+ },
+ {
+  "id": "144",
+  "accession": "GSE349189",
+  "recordType": "dataset",
+  "title": "Compartmentalized immune reprogramming across lung parenchyma and lymph nodes in end-stage emphysema and fibrosis",
+  "organism": "Human",
+  "tissue": "Lung",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "Xenium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "",
+  "numSamples": "8",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349189",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349189&targ=self&form=text",
+    "evidence": "…c lung disease. !Series_overall_design = 10X Genomics Xenium spatial transcriptomics with Human ImmunoOncology Pane…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349189&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349189&targ=self&form=text",
+    "evidence": "Compartmentalized immune reprogramming across lung parenchyma and lymph nodes in end-stage emphysema and…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349189&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349189",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "isTumor"
+  ]
+ },
+ {
+  "id": "145",
+  "accession": "GSE353421",
+  "recordType": "dataset",
+  "title": "Spatial transcriptomics reveals inflammatory fibro-adipogenic progenitors within fibro-inflammatory niches in Duchenne muscular dystrophy",
+  "organism": "Human",
+  "tissue": "Muscle",
+  "isTumor": "No",
+  "cancerType": "",
+  "technology": "",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Co-registered",
+  "fixation": "",
+  "numSamples": "18",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE353421",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE353421&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE353421&targ=self&form=text",
+    "evidence": "…RNA sequencing and spatial transcriptomics of skeletal muscle biopsies from patients with DMD and healthy controls t…",
+    "method": "keyword"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE353421&targ=self&form=text",
+    "evidence": "…of skeletal muscle biopsies from patients with DMD and healthy controls to characterise FAP subpopulations, define th…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM10176438&targ=self&form=text",
+    "evidence": "…samples/GSM10176nnn/GSM10176438/suppl/GSM10176438_S4_1_aligned_fiducials.jpg.gz !Sample_supplementary_file_2 = ftp://ftp.ncbi.n…",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE353421",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "technology"
+  ]
+ },
+ {
+  "id": "147",
+  "accession": "GSE354769",
+  "recordType": "dataset",
+  "title": "Medulloblastoma Spatial Transcriptomics Reveals Tumor Microenvironment Heterogeneity With High-Density Progenitor Cell Regions Correlating With High-Risk Disease",
+  "organism": "Human",
+  "tissue": "",
+  "isTumor": "Yes",
+  "cancerType": "",
+  "technology": "Visium",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "Co-registered",
+  "fixation": "FFPE",
+  "numSamples": "18",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE354769",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE354769&targ=self&form=text",
+    "evidence": "…esign = Spatial transcriptomic profiling (10x Genomics Visium) of 18 formalin-fixed paraffin-embedded medulloblastom…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE354769&targ=self&form=text",
+    "evidence": "Series_taxon = Homo sapiens",
+    "method": "deterministic"
+   },
+   "isTumor": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE354769&targ=self&form=text",
+    "evidence": "Medulloblastoma Spatial Transcriptomics Reveals Tumor Microenvironment Heterogeneity With High-Density Proge…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM10202331&targ=self&form=text",
+    "evidence": "…/samples/GSM10202nnn/GSM10202331/suppl/GSM10202331_A14_aligned_fiducials.jpg.gz !Sample_supplementary_file_3 = ftp://ftp.ncbi.n…",
+    "method": "filename"
+   },
+   "fixation": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE354769&targ=self&form=text",
+    "evidence": "…l transcriptomic profiling (10x Genomics Visium) of 18 formalin-fixed paraffin-embedded medulloblastoma tumor sections from…",
+    "method": "keyword"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE354769",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "tissue"
+  ]
+ },
+ {
+  "id": "149",
+  "accession": "GSE355328",
+  "recordType": "dataset",
+  "title": "Robust and accessible in situ sequencing with an open-source automated sequencer (marmoset)",
+  "organism": "Non-human primate",
+  "tissue": "Brain",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "MERFISH",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "",
+  "numSamples": "1",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE355328",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE355328&targ=self&form=text",
+    "evidence": "…ples, one per brain. Processed data per Sample, as for MERFISH submissions: every decoded transcript with its positio…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE355328&targ=self&form=text",
+    "evidence": "Series_taxon = Callithrix jacchus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE355328&targ=self&form=text",
+    "evidence": "…, was similar to that of four manually sequenced mouse brains. In four mouse hemispheres sequenced in separate runs…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE355328&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE355328",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "isTumor"
+  ]
+ },
+ {
+  "id": "150",
+  "accession": "GSE355330",
+  "recordType": "dataset",
+  "title": "Robust and accessible in situ sequencing with an open-source automated sequencer (mouse)",
+  "organism": "Mouse",
+  "tissue": "Brain",
+  "isTumor": "",
+  "cancerType": "",
+  "technology": "MERFISH",
+  "geneCoverage": "",
+  "panelGeneCount": "",
+  "coregProtein": "",
+  "heImage": "None",
+  "fixation": "",
+  "numSamples": "4",
+  "access": "Public",
+  "repositoryUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE355330",
+  "articleUrl": "",
+  "doi": "",
+  "authors": "",
+  "pubYear": "2026",
+  "pubMonth": "",
+  "submittedBy": "Varredura automática BRIGHT (GEO)",
+  "contactEmail": "marcostoquetao@gmail.com",
+  "notes": "",
+  "_provenance": {
+   "technology": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE355330&targ=self&form=text",
+    "evidence": "…ples, one per brain. Processed data per Sample, as for MERFISH submissions: every decoded transcript with its positio…",
+    "method": "regex"
+   },
+   "organism": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE355330&targ=self&form=text",
+    "evidence": "Series_taxon = Mus musculus; Callithrix jacchus",
+    "method": "deterministic"
+   },
+   "tissue": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE355330&targ=self&form=text",
+    "evidence": "…, was similar to that of four manually sequenced mouse brains. In four mouse hemispheres sequenced in separate runs…",
+    "method": "keyword"
+   },
+   "heImage": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE355330&targ=gsm&form=text",
+    "evidence": "Nenhum arquivo de imagem nos suplementares amostrados",
+    "method": "filename"
+   },
+   "access": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE355330",
+    "evidence": "Série pública do GEO",
+    "method": "deterministic"
+   }
+  },
+  "_missing": [
+   "isTumor"
+  ]
  }
 ]
